@@ -5,12 +5,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pulp import *
 
-app = FastAPI(title="WC2026 Fantasy Optimizer API")
+app = FastAPI(title="StatLabs API")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://wc2026-fantasy-plum.vercel.app",
+        "https://statlabs-preynsh.vercel.app",
         "http://localhost:3000",
     ],
     allow_methods=["*"],
