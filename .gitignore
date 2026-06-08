@@ -73,7 +73,7 @@ archive/
 
 # ── Node / frontend ───────────────────────────────────────────────
 node_modules/
-frontend/.next/
+.next/
 frontend/out/
 frontend/.env.local
 
