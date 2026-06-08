@@ -1,0 +1,750 @@
+name,country,position,market_value_in_eur,std_fp_last_5,base_projection,avg_fixture_multiplier,adjusted_projection,opponents
+AHMED QASIM,Iraq,0,50000.0,2.236067977499789,3.02,0.923,2.79,Norway | Senegal | France
+AIMAR SHER,Iraq,3,750000.0,0.4472135954999579,1.5,0.923,1.38,Norway | Senegal | France
+AKRAM AFIF,Qatar,0,4500000.0,1.6431676725154991,3.01,1.077,3.24,Switzerland | Canada | Bosnia and Herzegovina
+ALEX SANDRO,Brazil,1,2000000.0,5.718391382198319,2.85,1.307,3.72,Morocco | Haiti | Scotland
+ALI ALHAMADI,Iraq,2,150000.0,1.22474487139159,2.39,0.923,2.21,Norway | Senegal | France
+ALI JASIM,Iraq,0,50000.0,0.5477225575051659,2.37,0.923,2.19,Norway | Senegal | France
+ALI YOUSIF,Iraq,1,50000.0,2.7748873851023217,2.36,0.923,2.18,Norway | Senegal | France
+ALISSON,Brazil,2,17000000.0,2.509980079602227,3.24,1.307,4.23,Morocco | Haiti | Scotland
+Aaron HICKEY,Scotland,1,28000000.0,2.949576240750524,2.18,1.013,2.21,Haiti | Morocco | Brazil
+Abbosbek FAYZULLAEV,Uzbekistan,0,7000000.0,2.408318915758459,2.66,1.187,3.16,Colombia | Portugal | DR Congo
+Abde EZZALZOULI,Morocco,0,20000000.0,3.71483512420134,3.47,0.983,3.41,Scotland | Brazil | Haiti
+Abdoulaye Seck,Senegal,1,1500000.0,4.03732584763727,3.79,1.003,3.8,France | Norway | Iraq
+Abdukodir KHUSANOV,Uzbekistan,1,35000000.0,3.2093613071762435,3.32,1.187,3.94,Colombia | Portugal | DR Congo
+Abdul MUMIN,Ghana,1,2500000.0,0.547722557505168,1.88,1.193,2.24,Panama | England | Croatia
+Abdulla ABDULLAEV,Uzbekistan,0,75000.0,1.7888543819998317,2.06,1.187,2.44,Colombia | Portugal | DR Congo
+Achraf HAKIMI,Morocco,1,80000000.0,4.024922359499618,4.06,0.983,3.99,Scotland | Brazil | Haiti
+Adam AROUS,Tunisia,1,50000.0,2.9495762407505257,2.38,1.27,3.02,Sweden | Japan | Netherlands
+Adam HLOZEK,Czechia,0,15000000.0,0.4472135954999594,2.1,1.177,2.47,South Korea | South Africa | Mexico
+Adrien RABIOT,France,3,20000000.0,2.2360679774997902,2.76,1.293,3.57,Senegal | Iraq | Norway
+Aiden ONEILL,Australia,3,1500000.0,0.4472135954999571,2.18,0.937,2.04,Turkey | Paraguay | United States
+Aissa MANDI,Algeria,1,1800000.0,2.6832815729997477,3.33,0.877,2.92,Argentina | Jordan | Austria
+Ajdin HRUSTIC,Australia,3,600000.0,0.0,2.17,0.937,2.03,Turkey | Paraguay | United States
+Alan MINDA,Ecuador,0,3000000.0,1.224744871391589,2.49,0.953,2.37,Ivory Coast | Germany | Curaçao
+Aleksandar PAVLOVIC,Germany,3,65000000.0,1.7320508075688772,2.49,0.953,2.37,Ivory Coast | Curaçao | Ecuador
+Alessandro CIRCATI,Australia,1,50000.0,3.361547262794323,2.7,0.937,2.53,Turkey | Paraguay | United States
+Alessandro SCHOEPF,Austria,3,1800000.0,0.4472135954999579,2.17,1.147,2.49,Jordan | Argentina | Algeria
+Alex ARCE,Paraguay,1,50000.0,0.8366600265340749,2.53,0.933,2.36,Turkey | United States | Australia
+Alex BAENA,Spain,0,40000000.0,1.7320508075688774,2.77,0.793,2.2,Uruguay | Cape Verde | Saudi Arabia
+Alexander BERNHARDSSON,Sweden,0,3000000.0,5.215361924162119,3.41,1.22,4.16,Tunisia | Netherlands | Japan
+Alexander Isak,Sweden,0,120000000.0,2.6076809620810586,3.11,1.22,3.79,Tunisia | Netherlands | Japan
+Alexander NUEBEL,Germany,2,12000000.0,0.8944271909999023,2.72,0.953,2.59,Ivory Coast | Curaçao | Ecuador
+Alexander PRASS,Austria,3,5000000.0,0.4472135954999589,1.66,1.147,1.9,Jordan | Argentina | Algeria
+Alexander SCHLAGER,Austria,2,50000.0,1.3038404810405295,2.41,1.147,2.76,Jordan | Argentina | Algeria
+Alexander SORLOTH,Norway,0,20000000.0,4.722287581247039,2.71,0.973,2.64,Senegal | Iraq | France
+Alexandr SOJKA,Czechia,3,50000.0,0.0,1.42,1.177,1.67,South Korea | South Africa | Mexico
+Alexis MAC ALLISTER,Argentina,3,85000000.0,2.949576240750525,2.84,1.127,3.2,Austria | Jordan | Algeria
+Alexis SAELEMAEKERS,Belgium,3,12000000.0,0.5477225575051662,1.89,1.267,2.39,Egypt | Iran | New Zealand
+Alfie JONES,Canada,1,2500000.0,3.361547262794322,2.95,1.26,3.72,Bosnia and Herzegovina | Qatar | Switzerland
+Ali ABDI,Tunisia,1,2500000.0,4.722287581247038,2.26,1.27,2.87,Sweden | Japan | Netherlands
+Alidu SEIDU,Ghana,1,6000000.0,3.0822070014844876,2.45,1.193,2.92,Panama | England | Croatia
+Alistair JOHNSTON,Canada,1,8000000.0,4.024922359499622,2.9,1.26,3.65,Bosnia and Herzegovina | Qatar | Switzerland
+Alphonso DAVIES,Canada,1,50000000.0,4.159326868617084,2.11,1.26,2.66,Bosnia and Herzegovina | Qatar | Switzerland
+Alvaro FIDALGO,Mexico,3,7000000.0,0.547722557505166,2.0,1.333,2.67,South Africa | South Korea | Czechia
+Amadou ONANA,Belgium,3,42000000.0,0.5477225575051662,2.17,1.267,2.75,Egypt | Iran | New Zealand
+Amar DEDIC,Bosnia and Herzegovina,1,50000.0,2.774887385102321,2.58,1.073,2.77,Switzerland | Qatar | Canada
+Amar MEMIC,Bosnia and Herzegovina,3,50000.0,0.4472135954999579,2.09,1.073,2.24,Switzerland | Qatar | Canada
+Amine GOUIRI,Algeria,0,28000000.0,2.6832815729997423,3.33,0.877,2.92,Argentina | Jordan | Austria
+Amir HADZIAHMETOVIC,Bosnia and Herzegovina,3,4200000.0,0.5477225575051662,2.03,1.073,2.18,Switzerland | Qatar | Canada
+Amir MURILLO,Panama,1,10000000.0,1.516575088810303,2.5,1.1,2.75,Ghana | Croatia | England
+Anass SALAH EDDINE,Morocco,1,12000000.0,0.8366600265340649,1.75,0.983,1.72,Scotland | Brazil | Haiti
+Andreas SCHJELDERUP,Norway,0,14000000.0,3.3166247903554,4.15,0.973,4.04,Senegal | Iraq | France
+Andres ANDRADE,Panama,1,1000000.0,1.9493588689617924,2.21,1.1,2.43,Ghana | Croatia | England
+Andres CUBAS,Paraguay,3,4500000.0,0.5477225575051662,2.17,0.933,2.03,Turkey | United States | Australia
+Andres GOMEZ,Colombia,0,5000000.0,1.7888543819998317,2.1,1.223,2.57,Uzbekistan | DR Congo | Portugal
+Andy ROBERTSON,Scotland,1,30000000.0,4.39317652729776,2.97,1.013,3.01,Haiti | Morocco | Brazil
+Angelo PRECIADO,Ecuador,1,5000000.0,6.06630035524124,3.25,0.953,3.1,Ivory Coast | Germany | Curaçao
+Angelo Stiller,Germany,3,45000000.0,0.0,2.09,0.953,1.99,Ivory Coast | Curaçao | Ecuador
+Angus Gunn,Scotland,2,2500000.0,1.1401754250991392,2.44,1.013,2.47,Haiti | Morocco | Brazil
+Anis HADJ MOUSSA,Algeria,0,2000000.0,2.68328157299975,3.78,0.877,3.31,Argentina | Jordan | Austria
+Anis SLIMANE,Tunisia,3,2500000.0,0.4472135954999579,1.71,1.27,2.17,Sweden | Japan | Netherlands
+Anthony ELANGA,Sweden,0,50000000.0,0.5477225575051659,2.42,1.22,2.95,Tunisia | Netherlands | Japan
+Anthony GORDON,England,0,60000000.0,3.1304951684997064,3.6,1.213,4.37,Ghana | Panama | Croatia
+Anthony RALSTON,Scotland,1,1500000.0,3.049590136395382,2.02,1.013,2.05,Haiti | Morocco | Brazil
+Anthony VALENCIA,Ecuador,0,1000000.0,3.361547262794322,3.67,0.953,3.5,Ivory Coast | Germany | Curaçao
+Antoine MENDY,Senegal,1,4000000.0,2.3874672772626644,2.84,1.003,2.85,France | Norway | Iraq
+Antoine SEMENYO,Ghana,0,65000000.0,2.949576240750525,3.92,1.193,4.68,Panama | England | Croatia
+Antonio NUSA,Norway,0,32000000.0,3.8340579025361623,2.8,0.973,2.73,Senegal | Iraq | France
+Antonio RUEDIGER,Germany,1,25000000.0,3.2710854467592245,2.9,0.953,2.76,Ivory Coast | Curaçao | Ecuador
+Antonio SANABRIA,Paraguay,0,7000000.0,0.5477225575051662,2.61,0.933,2.44,Turkey | United States | Australia
+Ao TANAKA,Japan,3,50000.0,0.0,2.08,1.177,2.45,Netherlands | Tunisia | Sweden
+Ardon JASHARI,Switzerland,3,32000000.0,0.5477225575051656,2.18,0.737,1.61,Qatar | Bosnia and Herzegovina | Canada
+Arjany MARTHA,Curaçao,0,1200000.0,0.4472135954999579,2.1,0.593,1.25,Germany | Ecuador | Ivory Coast
+Armando OBISPO,Curaçao,1,3000000.0,0.7071067811865476,2.38,0.593,1.41,Germany | Ecuador | Ivory Coast
+Armin GIGOVIC,Bosnia and Herzegovina,3,2000000.0,0.5477225575051704,1.8,1.073,1.93,Switzerland | Qatar | Canada
+Arthur THEATE,Belgium,1,24000000.0,0.8366600265340728,2.62,1.267,3.32,Egypt | Iran | New Zealand
+Assane DIAO,Senegal,0,12000000.0,1.9493588689617924,3.12,1.003,3.13,France | Norway | Iraq
+Augustine BOAKYE,Ghana,0,4000000.0,0.7071067811865476,2.28,1.193,2.72,Panama | England | Croatia
+Aurele AMENDA,Switzerland,1,6000000.0,0.8366600265340709,2.54,0.737,1.87,Qatar | Bosnia and Herzegovina | Canada
+Aurelien TCHOUAMENI,France,3,100000000.0,0.5477225575051676,2.26,1.293,2.92,Senegal | Iraq | Norway
+Awer MABIL,Australia,0,1300000.0,0.4472135954999579,2.06,0.937,1.93,Turkey | Paraguay | United States
+Axel WITSEL,Belgium,3,1400000.0,0.5477225575051662,1.82,1.267,2.31,Egypt | Iran | New Zealand
+Ayase UEDA,Japan,0,8000000.0,4.658325879540846,4.43,1.177,5.21,Netherlands | Tunisia | Sweden
+Aymeric LAPORTE,Spain,1,20000000.0,2.828427124746191,2.82,0.793,2.24,Uruguay | Cape Verde | Saudi Arabia
+Ayoub El Kaabi,Morocco,0,5000000.0,5.856620185738529,3.88,0.983,3.82,Scotland | Brazil | Haiti
+Ayumu SEKO,Japan,1,50000.0,1.224744871391592,2.5,1.177,2.94,Netherlands | Tunisia | Sweden
+Ayyoub BOUADDI,Morocco,3,40000000.0,0.8944271909999159,2.11,0.983,2.07,Scotland | Brazil | Haiti
+Aziz BEHICH,Australia,1,550000.0,3.271085446759225,2.89,0.937,2.71,Turkey | Paraguay | United States
+Azzedine OUNAHI,Morocco,3,10000000.0,0.0,2.36,0.983,2.32,Scotland | Brazil | Haiti
+BERNARDO SILVA,Portugal,3,27000000.0,0.5477225575051659,2.36,0.98,2.31,Uzbekistan | DR Congo | Colombia
+BREMER,Brazil,1,35000000.0,2.2360679774997885,3.6,1.307,4.7,Morocco | Haiti | Scotland
+BRUNO FERNANDES,Portugal,3,40000000.0,1.949358868961793,3.32,0.98,3.25,Uzbekistan | DR Congo | Colombia
+BRUNO GUIMARAES,Brazil,3,75000000.0,1.516575088810312,2.71,1.307,3.54,Morocco | Haiti | Scotland
+Bamba DIENG,Senegal,0,4000000.0,2.4899799195977463,3.25,1.003,3.26,France | Norway | Iraq
+Bara Sapoko NDIAYE,Senegal,3,50000.0,0.5773502691896258,1.56,1.003,1.57,France | Norway | Iraq
+Bart Verbruggen,Netherlands,2,35000000.0,3.3615472627943235,3.07,1.2,3.68,Sweden | Tunisia | Japan
+Ben GANNON-DOAK,Scotland,0,10000000.0,0.0,1.75,1.013,1.77,Haiti | Morocco | Brazil
+Ben OLD,New Zealand,1,600000.0,1.095445115010332,1.26,1.273,1.6,Iran | Egypt | Belgium
+Ben WAINE,New Zealand,0,50000.0,2.588435821108957,3.82,1.273,4.86,Iran | Egypt | Belgium
+Benjamin ASARE,Ghana,3,4000000.0,1.51657508881031,2.57,1.193,3.07,Panama | England | Croatia
+Benjamin NYGREN,Sweden,3,6500000.0,2.302172886644269,3.16,1.22,3.86,Tunisia | Netherlands | Japan
+Benjamin TAHIROVIC,Bosnia and Herzegovina,3,4500000.0,0.8366600265340756,1.81,1.073,1.94,Switzerland | Qatar | Canada
+Besfort ZENELI,Sweden,3,50000.0,3.9749213828703582,2.34,1.22,2.85,Tunisia | Netherlands | Japan
+Bilal EL KHANNOUSS,Morocco,3,30000000.0,2.04939015319192,2.58,0.983,2.54,Scotland | Brazil | Haiti
+Borja IGLESIAS,Spain,0,5000000.0,2.9495762407505253,2.66,0.793,2.11,Uruguay | Cape Verde | Saudi Arabia
+Bradley BARCOLA,France,0,70000000.0,0.5477225575051645,2.71,1.293,3.5,Senegal | Iraq | Norway
+Brahim DIAZ,Morocco,0,40000000.0,1.7888543819998317,2.86,0.983,2.81,Scotland | Brazil | Haiti
+Brandley KUWAS,Curaçao,0,450000.0,1.2247448713915865,2.3,0.593,1.36,Germany | Ecuador | Ivory Coast
+Brandon MECHELE,Belgium,1,3000000.0,0.8944271909999132,2.71,1.267,3.43,Egypt | Iran | New Zealand
+Breel EMBOLO,Switzerland,0,12000000.0,2.3874672772626644,2.84,0.737,2.09,Qatar | Bosnia and Herzegovina | Canada
+Brian BROBBEY,Netherlands,0,20000000.0,2.387467277262665,3.53,1.2,4.24,Sweden | Tunisia | Japan
+Brian RODRIGUEZ,Uruguay,0,50000.0,4.024922359499621,2.48,0.863,2.14,Saudi Arabia | Cape Verde | Spain
+Brice SAMBA,France,2,10000000.0,3.5071355833500353,2.64,1.293,3.41,Senegal | Iraq | Norway
+Bukayo SAKA,England,0,130000000.0,3.714835124201342,3.57,1.213,4.33,Ghana | Panama | Croatia
+CASEMIRO,Brazil,3,8000000.0,2.9495762407505253,2.72,1.307,3.55,Morocco | Haiti | Scotland
+CRISTIANO RONALDO,Portugal,0,15000000.0,2.3874672772626644,4.79,0.98,4.69,Uzbekistan | DR Congo | Colombia
+Caleb YIRENKYI,Ghana,3,50000.0,3.1304951684997055,2.61,1.193,3.11,Panama | England | Croatia
+Callum McCOWATT,New Zealand,3,2000000.0,0.4472135954999579,2.26,1.273,2.88,Iran | Egypt | Belgium
+Cameron BURGESS,Australia,1,500000.0,6.06630035524124,2.85,0.937,2.67,Turkey | Paraguay | United States
+Carl STARFELT,Sweden,1,6000000.0,2.3874672772626653,3.1,1.22,3.78,Tunisia | Netherlands | Japan
+Carlens ARCUS,Haiti,1,700000.0,2.9495762407505257,2.07,0.937,1.94,Scotland | Morocco | Brazil
+Carney CHUKWUEMEKA,Austria,3,25000000.0,0.4472135954999579,1.96,1.147,2.25,Jordan | Argentina | Algeria
+Cedric ITTEN,Switzerland,0,4500000.0,2.16794833886788,2.66,0.737,1.96,Qatar | Bosnia and Herzegovina | Canada
+Cesar BLACKMAN,Panama,1,50000.0,3.24037034920393,2.32,1.1,2.55,Ghana | Croatia | England
+Cesar HUERTA,Mexico,0,5000000.0,0.8366600265340745,2.44,1.333,3.25,South Africa | South Korea | Czechia
+Cesar MONTES,Mexico,1,7000000.0,3.5637059362410928,3.53,1.333,4.71,South Africa | South Korea | Czechia
+Chadi RIAD,Morocco,1,12000000.0,2.4899799195977463,2.44,0.983,2.4,Scotland | Brazil | Haiti
+Charles DE KETELAERE,Belgium,3,34000000.0,0.0,2.22,1.267,2.81,Egypt | Iran | New Zealand
+Che Adams,Scotland,0,18000000.0,1.949358868961793,2.63,1.013,2.67,Haiti | Morocco | Brazil
+Chemsdine TALBI,Morocco,0,22000000.0,2.5099800796022267,2.99,0.983,2.94,Scotland | Brazil | Haiti
+Cherif NDIAYE,Senegal,0,3500000.0,4.8270073544588685,3.55,1.003,3.56,France | Norway | Iraq
+Chris WOOD,New Zealand,0,8000000.0,2.5099800796022267,2.66,1.273,3.39,Iran | Egypt | Belgium
+Christian FASSNACHT,Switzerland,3,50000.0,1.6431676725154984,1.92,0.737,1.41,Qatar | Bosnia and Herzegovina | Canada
+Christoph BAUMGARTNER,Austria,3,18000000.0,2.0736441353327733,2.83,1.147,3.25,Jordan | Argentina | Algeria
+Christopher Bonsu BAAH,Ghana,0,3500000.0,2.3874672772626644,3.12,1.193,3.72,Panama | England | Croatia
+Cody GAKPO,Netherlands,0,70000000.0,1.949358868961793,3.57,1.2,4.28,Sweden | Tunisia | Japan
+Connor METCALFE,Australia,3,50000.0,0.7071067811865476,1.62,0.937,1.52,Turkey | Paraguay | United States
+Craig GORDON,Scotland,2,50000.0,3.1304951684997047,2.7,1.013,2.74,Haiti | Morocco | Brazil
+Cristian ROMERO,Argentina,1,60000000.0,1.3416407864998732,2.75,1.127,3.1,Austria | Jordan | Algeria
+Cristian VOLPATO,Australia,3,4500000.0,2.280350850198276,2.2,0.937,2.06,Turkey | Paraguay | United States
+Crysencio SUMMERVILLE,Netherlands,0,22000000.0,0.5477225575051669,3.05,1.2,3.66,Sweden | Tunisia | Japan
+Cucho HERNANDEZ,Colombia,0,18000000.0,4.7222875812470395,3.86,1.223,4.72,Uzbekistan | DR Congo | Portugal
+Cyle LARIN,Canada,0,3500000.0,2.073644135332772,3.03,1.26,3.82,Bosnia and Herzegovina | Qatar | Switzerland
+DANILO,Brazil,3,200000.0,0.5477225575051661,1.53,1.307,2.0,Morocco | Haiti | Scotland
+DANILO SANTOS,Brazil,3,50000.0,0.5773502691896257,1.66,1.307,2.17,Morocco | Haiti | Scotland
+DIOGO COSTA,Portugal,2,40000000.0,2.949576240750525,3.54,0.98,3.47,Uzbekistan | DR Congo | Colombia
+DIOGO DALOT,Portugal,1,28000000.0,2.7748873851023204,2.83,0.98,2.77,Uzbekistan | DR Congo | Colombia
+DOUGLAS SANTOS,Brazil,1,8000000.0,3.209361307176243,3.22,1.307,4.21,Morocco | Haiti | Scotland
+Daichi KAMADA,Japan,3,12000000.0,0.894427190999916,1.86,1.177,2.19,Netherlands | Tunisia | Sweden
+Daizen MAEDA,Japan,0,14000000.0,3.714835124201342,3.91,1.177,4.6,Netherlands | Tunisia | Sweden
+Dan BURN,England,1,5000000.0,3.209361307176241,2.5,1.213,3.03,Ghana | Panama | Croatia
+Dan NDOYE,Switzerland,0,40000000.0,0.5477225575051662,2.37,0.737,1.75,Qatar | Bosnia and Herzegovina | Canada
+Dani OLMO,Spain,3,60000000.0,1.095445115010332,2.37,0.793,1.88,Uruguay | Cape Verde | Saudi Arabia
+Daniel MUNOZ,Colombia,1,27000000.0,2.915475947422657,2.66,1.223,3.25,Uzbekistan | DR Congo | Portugal
+Daniel SVENSSON,Sweden,1,22000000.0,2.683281572999745,2.58,1.22,3.15,Tunisia | Netherlands | Japan
+Danley JEAN JACQUES,Haiti,3,2000000.0,0.5477225575051662,2.12,0.937,1.99,Scotland | Morocco | Brazil
+Darwin NUNEZ,Uruguay,0,70000000.0,0.0,6.02,0.863,5.2,Saudi Arabia | Cape Verde | Spain
+David AFFENGRUBER,Austria,1,50000.0,2.949576240750525,2.58,1.147,2.96,Jordan | Argentina | Algeria
+David ALABA,Austria,1,20000000.0,2.8284271247461903,2.7,1.147,3.1,Jordan | Argentina | Algeria
+David DOUDERA,Czechia,3,50000.0,0.7071067811865475,1.72,1.177,2.02,South Korea | South Africa | Mexico
+David JURASEK,Czechia,1,4500000.0,2.701851217221259,2.64,1.177,3.11,South Korea | South Africa | Mexico
+David MOLLER WOLFE,Norway,1,4500000.0,1.516575088810309,1.97,0.973,1.92,Senegal | Iraq | France
+David OSPINA,Colombia,2,3000000.0,2.701851217221259,2.77,1.223,3.39,Uzbekistan | DR Congo | Portugal
+David RAUM,Germany,1,20000000.0,3.9115214431215897,3.45,0.953,3.29,Ivory Coast | Curaçao | Ecuador
+David RAYA,Spain,2,35000000.0,2.2360679774997907,3.9,0.793,3.09,Uruguay | Cape Verde | Saudi Arabia
+David Zima,Czechia,1,4000000.0,4.219004621945797,2.82,1.177,3.32,South Korea | South Africa | Mexico
+Davinson SANCHEZ,Colombia,1,18000000.0,2.8809720581775857,3.01,1.223,3.68,Uzbekistan | DR Congo | Portugal
+Dayot UPAMECANO,France,1,70000000.0,2.509980079602227,3.27,1.293,4.23,Senegal | Iraq | Norway
+Dean Henderson,England,2,28000000.0,0.7071067811865407,2.73,1.213,3.31,Ghana | Panama | Croatia
+Declan RICE,England,3,120000000.0,0.4472135954999579,2.19,1.213,2.66,Ghana | Panama | Croatia
+Deiver MACHADO,Colombia,1,4000000.0,2.9154759474226504,2.37,1.223,2.9,Uzbekistan | DR Congo | Portugal
+Denil CASTILLO,Ecuador,3,5500000.0,2.509980079602227,2.41,0.953,2.3,Ivory Coast | Germany | Curaçao
+Denis VISINSKY,Czechia,3,50000.0,2.6076809620810595,2.05,1.177,2.41,South Korea | South Africa | Mexico
+Denis ZAKARIA,Switzerland,3,25000000.0,0.4472135954999579,2.16,0.737,1.59,Qatar | Bosnia and Herzegovina | Canada
+Deniz UNDAV,Germany,0,25000000.0,2.5099800796022276,3.77,0.953,3.59,Ivory Coast | Curaçao | Ecuador
+Dennis HADZIKADUNIC,Bosnia and Herzegovina,1,3000000.0,1.1401754250991414,2.16,1.073,2.32,Switzerland | Qatar | Canada
+Denzel DUMFRIES,Netherlands,1,25000000.0,4.615192303685729,2.5,1.2,3.0,Sweden | Tunisia | Japan
+Derek CORNELIUS,Canada,1,4000000.0,4.0,3.09,1.26,3.89,Bosnia and Herzegovina | Qatar | Switzerland
+Derrick LUCKASSEN,Ghana,1,1200000.0,2.387467277262664,2.94,1.193,3.51,Panama | England | Croatia
+Desire DOUE,France,0,90000000.0,2.302172886644267,3.96,1.293,5.12,Senegal | Iraq | Norway
+Deveron FONVILLE,Curaçao,1,50000.0,1.3416407864998738,2.14,0.593,1.27,Germany | Ecuador | Ivory Coast
+Diego MOREIRA,Belgium,3,18000000.0,3.8340579025361623,2.29,1.267,2.9,Egypt | Iran | New Zealand
+Djed SPENCE,England,1,8000000.0,2.949576240750528,1.81,1.213,2.2,Ghana | Panama | Croatia
+Djibril SOW,Switzerland,3,9000000.0,1.9235384061671332,2.38,0.737,1.75,Qatar | Bosnia and Herzegovina | Canada
+Dodi LUKEBAKIO,Belgium,0,20000000.0,0.0,2.1,1.267,2.66,Egypt | Iran | New Zealand
+Donyell Malen,Netherlands,0,25000000.0,4.604345773288535,4.05,1.2,4.86,Sweden | Tunisia | Japan
+Dostonbek Khamdamov,Uzbekistan,0,750000.0,0.5477225575051661,1.79,1.187,2.12,Colombia | Portugal | DR Congo
+Duckens NAZON,Haiti,0,1600000.0,2.5099800796022262,3.4,0.937,3.18,Scotland | Morocco | Brazil
+Dylan BRONN,Tunisia,1,1300000.0,1.3038404810405315,1.9,1.27,2.41,Sweden | Japan | Netherlands
+Dzenis BURNIC,Bosnia and Herzegovina,3,550000.0,1.140175425099138,1.79,1.073,1.92,Switzerland | Qatar | Canada
+EDERSON,Brazil,2,15000000.0,2.828427124746188,3.19,1.307,4.17,Morocco | Haiti | Scotland
+EDMILSON JUNIOR,Qatar,0,3000000.0,1.3416407864998734,3.28,1.077,3.53,Switzerland | Canada | Bosnia and Herzegovina
+EMAM ASHOUR,Egypt,3,2000000.0,2.1908902300206643,2.34,1.11,2.6,New Zealand | Iran | Belgium
+ENDRICK,Brazil,0,50000.0,3.271085446759225,3.32,1.307,4.34,Morocco | Haiti | Scotland
+Eberechi EZE,England,3,65000000.0,0.5477225575051566,2.24,1.213,2.72,Ghana | Panama | Croatia
+Edgardo FARINA,Panama,1,1000000.0,3.5777087639996648,2.15,1.1,2.37,Ghana | Croatia | England
+Edin DZEKO,Bosnia and Herzegovina,0,2700000.0,0.4472135954999579,2.03,1.073,2.18,Switzerland | Qatar | Canada
+Edouard MENDY,Senegal,2,10000000.0,2.738612787525831,3.49,1.003,3.5,France | Norway | Iraq
+Edson ALVAREZ,Mexico,3,22000000.0,1.7888543819998317,1.94,1.333,2.59,South Africa | South Korea | Czechia
+El Hadji Malick DIOUF,Senegal,1,50000.0,2.683281572999747,2.33,1.003,2.34,France | Norway | Iraq
+Eldor SHOMURODOV,Uzbekistan,0,5000000.0,5.176871642217914,4.28,1.187,5.08,Colombia | Portugal | DR Congo
+Elias ACHOURI,Tunisia,0,3500000.0,0.4472135954999579,2.84,1.27,3.61,Sweden | Japan | Netherlands
+Elias SAAD,Tunisia,0,50000.0,0.7071067811865483,1.97,1.27,2.5,Sweden | Japan | Netherlands
+Elijah JUST,New Zealand,0,350000.0,1.949358868961793,3.22,1.273,4.1,Iran | Egypt | Belgium
+Elisha OWUSU,Ghana,3,2500000.0,0.0,2.04,1.193,2.43,Panama | England | Croatia
+Elliot ANDERSON,England,3,60000000.0,2.9495762407505253,3.01,1.213,3.65,Ghana | Panama | Croatia
+Ellyes SKHIRI,Tunisia,3,6000000.0,0.5477225575051662,1.84,1.27,2.34,Sweden | Japan | Netherlands
+Eloy ROOM,Curaçao,2,200000.0,2.07364413533277,2.27,0.593,1.35,Germany | Ecuador | Ivory Coast
+Emiliano MARTINEZ,Argentina,2,15000000.0,2.549509756796392,3.23,1.127,3.64,Austria | Jordan | Algeria
+Emiliano MARTINEZ,Uruguay,2,15000000.0,2.549509756796392,3.23,0.863,2.79,Saudi Arabia | Cape Verde | Spain
+Enner VALENCIA,Ecuador,0,3800000.0,2.79284800875379,3.54,0.953,3.37,Ivory Coast | Germany | Curaçao
+Enzo FERNANDEZ,Argentina,3,85000000.0,3.7013511046643495,4.04,1.127,4.55,Austria | Jordan | Algeria
+Eray COEMERT,Switzerland,1,2000000.0,2.966479394838264,2.77,0.737,2.04,Qatar | Bosnia and Herzegovina | Canada
+Eric GARCIA,Spain,1,20000000.0,2.701851217221261,3.37,0.793,2.67,Uruguay | Cape Verde | Saudi Arabia
+Eric SMITH,Sweden,1,5000000.0,2.949576240750523,2.55,1.22,3.11,Tunisia | Netherlands | Japan
+Erling HAALAND,Norway,0,200000000.0,3.3166247903553994,8.31,0.973,8.09,Senegal | Iraq | France
+Ermedin DEMIROVIC,Bosnia and Herzegovina,0,22000000.0,3.605551275463988,3.56,1.073,3.82,Switzerland | Qatar | Canada
+Ernest NUAMAH,Ghana,0,12000000.0,0.4472135954999598,2.03,1.193,2.42,Panama | England | Croatia
+Esmir BAJRAKTAREVIC,Bosnia and Herzegovina,0,5000000.0,8.843076387773658,3.58,1.073,3.84,Switzerland | Qatar | Canada
+Exequiel PALACIOS,Argentina,3,30000000.0,0.4472135954999579,2.22,1.127,2.5,Austria | Jordan | Algeria
+Ezri KONSA,England,1,35000000.0,2.5099800796022262,3.29,1.213,3.99,Ghana | Panama | Croatia
+FABINHO,Brazil,3,38000000.0,0.5477225575051659,2.38,1.307,3.11,Morocco | Haiti | Scotland
+FRANCISCO CONCEICAO,Portugal,0,30000000.0,0.4472135954999579,2.94,0.98,2.88,Uzbekistan | DR Congo | Colombia
+FRANCISCO TRINCAO,Portugal,3,35000000.0,2.3874672772626635,2.85,0.98,2.79,Uzbekistan | DR Congo | Colombia
+Fabian BALBUENA,Paraguay,1,1500000.0,2.6076809620810586,2.79,0.933,2.6,Turkey | United States | Australia
+Fabian RIEDER,Switzerland,3,8000000.0,4.024922359499622,2.66,0.737,1.96,Qatar | Bosnia and Herzegovina | Canada
+Fabian RUIZ,Spain,3,40000000.0,0.8944271909999163,2.14,0.793,1.7,Uruguay | Cape Verde | Saudi Arabia
+Facundo MEDINA,Argentina,1,20000000.0,3.0331501776206173,2.66,1.127,3.0,Austria | Jordan | Algeria
+Facundo PELLISTRI,Uruguay,0,7000000.0,1.3416407864998738,2.87,0.863,2.48,Saudi Arabia | Cape Verde | Spain
+Fares CHAIBI,Algeria,3,15000000.0,0.5477225575051667,1.98,0.877,1.74,Argentina | Jordan | Austria
+Fares GHEDJEMIS,Algeria,0,600000.0,0.0,2.0,0.877,1.75,Argentina | Jordan | Austria
+Federico VALVERDE,Uruguay,3,120000000.0,1.9493588689617944,2.95,0.863,2.55,Saudi Arabia | Cape Verde | Spain
+Federico VINAS,Uruguay,0,50000.0,0.4472135954999592,2.78,0.863,2.4,Saudi Arabia | Cape Verde | Spain
+Felix NMECHA,Germany,3,45000000.0,0.4472135954999579,2.01,0.953,1.92,Ivory Coast | Curaçao | Ecuador
+Fernando MUSLERA,Uruguay,2,750000.0,5.319774431308154,3.59,0.863,3.1,Saudi Arabia | Cape Verde | Spain
+Ferran TORRES,Spain,0,30000000.0,3.70135110466435,3.29,0.793,2.61,Uruguay | Cape Verde | Saudi Arabia
+Findlay CURTIS,Scotland,0,750000.0,2.5099800796022267,3.07,1.013,3.11,Haiti | Morocco | Brazil
+Florian GRILLITSCH,Austria,3,2000000.0,3.577708763999663,2.88,1.147,3.3,Jordan | Argentina | Algeria
+Florian WIEGELE,Austria,2,50000.0,2.880972058177586,2.96,1.147,3.39,Jordan | Argentina | Algeria
+Florian WIRTZ,Germany,3,110000000.0,2.387467277262664,2.71,0.953,2.58,Ivory Coast | Curaçao | Ecuador
+Frantzdy Pierrot,Haiti,0,3000000.0,0.0,1.75,0.937,1.64,Scotland | Morocco | Brazil
+Fredrik AURSNES,Norway,3,17000000.0,0.5477225575051663,2.3,0.973,2.24,Senegal | Iraq | France
+Frenkie DE JONG,Netherlands,3,70000000.0,0.0,1.79,1.2,2.15,Sweden | Tunisia | Japan
+GABRIEL MARTINELLI,Brazil,0,45000000.0,0.7071067811865483,2.29,1.307,2.99,Morocco | Haiti | Scotland
+GAVI,Spain,3,40000000.0,0.5477225575051662,2.19,0.793,1.74,Uruguay | Cape Verde | Saudi Arabia
+GONCALO GUEDES,Portugal,0,6000000.0,4.8476798574163285,3.37,0.98,3.3,Uzbekistan | DR Congo | Colombia
+GONCALO INACIO,Portugal,1,45000000.0,3.563705936241092,3.5,0.98,3.43,Uzbekistan | DR Congo | Colombia
+GONCALO RAMOS,Portugal,0,35000000.0,2.073644135332772,2.84,0.98,2.78,Uzbekistan | DR Congo | Colombia
+Gabriel GUDMUNDSSON,Sweden,1,15000000.0,6.841052550594828,3.08,1.22,3.76,Tunisia | Netherlands | Japan
+George HIRST,Scotland,0,8000000.0,1.8708286933869704,2.51,1.013,2.54,Haiti | Morocco | Brazil
+Geronimo RULLI,Argentina,2,9000000.0,2.6076809620810595,2.75,1.127,3.1,Austria | Jordan | Algeria
+Gervane KASTANEER,Curaçao,0,200000.0,2.23606797749979,3.01,0.593,1.79,Germany | Ecuador | Ivory Coast
+Gessime YASSINE,Morocco,0,50000.0,1.095445115010332,2.59,0.983,2.55,Scotland | Brazil | Haiti
+Gideon MENSAH,Ghana,1,3500000.0,3.082207001484488,2.54,1.193,3.03,Panama | England | Croatia
+Giorgian DE ARRASCAETA,Uruguay,3,50000.0,3.2145502536643185,2.1,0.863,1.81,Saudi Arabia | Cape Verde | Spain
+Giovani Lo Celso,Argentina,3,16000000.0,1.4832396974191324,2.08,1.127,2.34,Austria | Jordan | Algeria
+Giuliano SIMEONE,Argentina,0,40000000.0,0.4472135954999636,2.4,1.127,2.7,Austria | Jordan | Algeria
+Godfried ROEMERATOE,Curaçao,3,400000.0,2.345207879911715,1.97,0.593,1.17,Germany | Ecuador | Ivory Coast
+Gonzalo MONTIEL,Argentina,1,4500000.0,4.037325847637268,2.46,1.127,2.77,Austria | Jordan | Algeria
+Gonzalo PLATA,Ecuador,0,5000000.0,4.08656334834051,3.66,0.953,3.49,Ivory Coast | Germany | Curaçao
+Granit XHAKA,Switzerland,3,10000000.0,1.095445115010332,2.36,0.737,1.74,Qatar | Bosnia and Herzegovina | Canada
+Grant Hanley,Scotland,1,1500000.0,3.5071355833500375,2.92,1.013,2.96,Haiti | Morocco | Brazil
+Gregor KOBEL,Switzerland,2,40000000.0,2.7018512172212605,2.95,0.737,2.17,Qatar | Bosnia and Herzegovina | Canada
+Guillermo MARTINEZ,Mexico,1,4000000.0,3.898717737923586,2.32,1.333,3.09,South Africa | South Korea | Czechia
+Guillermo OCHOA,Mexico,2,1000000.0,3.346640106136301,2.45,1.333,3.27,South Africa | South Korea | Czechia
+Guillermo VARELA,Uruguay,1,2000000.0,2.607680962081061,2.76,0.863,2.38,Saudi Arabia | Cape Verde | Spain
+Gustaf LAGERBIELKE,Sweden,1,5000000.0,2.701851217221258,2.87,1.22,3.5,Tunisia | Netherlands | Japan
+Gustaf NILSSON,Sweden,0,2500000.0,0.4472135954999579,1.71,1.22,2.09,Tunisia | Netherlands | Japan
+Gustavo GOMEZ,Paraguay,1,8500000.0,3.24037034920393,3.0,0.933,2.8,Turkey | United States | Australia
+Gustavo PUERTA,Colombia,3,3000000.0,0.4472135954999579,1.72,1.223,2.1,Uzbekistan | DR Congo | Portugal
+Guus TIL,Netherlands,3,15000000.0,2.1213203435596433,3.26,1.2,3.91,Sweden | Tunisia | Japan
+HAMZA ABDELKARIM,Egypt,1,650000.0,1.7888543819998317,2.79,1.11,3.1,New Zealand | Iran | Belgium
+HUSSEIN ALI,Iraq,1,400000.0,0.8944271909999159,1.63,0.923,1.51,Norway | Senegal | France
+Habib DIARRA,Senegal,3,32000000.0,1.8165902124584952,2.18,1.003,2.19,France | Norway | Iraq
+Haissem HASSAN,Egypt,0,1500000.0,0.4472135954999579,2.27,1.11,2.52,New Zealand | Iran | Belgium
+Hannes DELCROIX,Haiti,1,4000000.0,1.4832396974191324,2.17,0.937,2.03,Scotland | Morocco | Brazil
+Hans VANAKEN,Belgium,3,6000000.0,0.0,2.45,1.267,3.1,Egypt | Iran | New Zealand
+Haris TABAKOVIC,Bosnia and Herzegovina,0,3000000.0,2.073644135332771,2.87,1.073,3.08,Switzerland | Qatar | Canada
+Harry KANE,England,0,65000000.0,6.503845016603639,3.85,1.213,4.67,Ghana | Panama | Croatia
+Harry SOUTTAR,Australia,1,6000000.0,3.2093613071762426,2.47,0.937,2.31,Turkey | Paraguay | United States
+Hazem MASTOURI,Tunisia,0,50000.0,1.816590212458495,2.57,1.27,3.26,Sweden | Japan | Netherlands
+Hicham BOUDAOUI,Algeria,3,12000000.0,0.4472135954999578,2.12,0.877,1.86,Argentina | Jordan | Austria
+Hiroki ITO,Japan,1,18000000.0,3.6742346141747673,3.04,1.177,3.58,Netherlands | Tunisia | Sweden
+Hjalmar EKDAL,Sweden,1,6000000.0,1.1401754250991365,2.56,1.22,3.12,Tunisia | Netherlands | Japan
+Houssem Aouar,Algeria,3,10000000.0,0.5477225575051656,2.02,0.877,1.77,Argentina | Jordan | Austria
+IBRAHIM BAYESH,Iraq,1,75000.0,3.0,2.37,0.923,2.19,Norway | Senegal | France
+IBRAHIM SABRA,Jordan,0,50000.0,2.23606797749979,1.6,1.243,1.99,Austria | Algeria | Argentina
+IBRAHIM SADEH,Jordan,0,600000.0,0.7071067811865472,2.3,1.243,2.86,Austria | Algeria | Argentina
+IGOR THIAGO,Brazil,0,25000000.0,2.387467277262667,3.86,1.307,5.04,Morocco | Haiti | Scotland
+Ibrahim MAZA,Algeria,3,600000.0,1.3416407864998738,2.44,0.877,2.14,Argentina | Jordan | Austria
+Ibrahim MBAYE,Senegal,0,25000000.0,3.03315017762062,2.84,1.003,2.85,France | Norway | Iraq
+Ibrahima KONATE,France,1,45000000.0,1.414213562373086,2.95,1.293,3.82,Senegal | Iraq | Norway
+Iliman NDIAYE,Senegal,0,45000000.0,0.0,3.4,1.003,3.41,France | Norway | Iraq
+Inaki WILLIAMS,Ghana,0,25000000.0,2.5099800796022267,2.84,1.193,3.39,Panama | England | Croatia
+Isak HIEN,Sweden,1,25000000.0,0.8366600265340699,2.07,1.22,2.53,Tunisia | Netherlands | Japan
+Ismael GHARBI,Tunisia,0,7000000.0,2.6076809620810595,2.81,1.27,3.57,Sweden | Japan | Netherlands
+Ismael KONE,Canada,3,14000000.0,0.5477225575051655,2.18,1.26,2.75,Bosnia and Herzegovina | Qatar | Switzerland
+Ismael SAIBARI,Morocco,3,32000000.0,5.594640292279746,4.45,0.983,4.38,Scotland | Brazil | Haiti
+Ismail JAKOBS,Senegal,1,6000000.0,3.1937438845342627,2.66,1.003,2.67,France | Norway | Iraq
+Ismaila SARR,Senegal,0,35000000.0,3.1304951684997047,3.74,1.003,3.75,France | Norway | Iraq
+Issa Diop,Morocco,1,10000000.0,0.5477225575051654,2.45,0.983,2.41,Scotland | Brazil | Haiti
+Ivan BASIC,Bosnia and Herzegovina,3,1000000.0,2.302172886644267,3.27,1.073,3.51,Switzerland | Qatar | Canada
+Ivan SUNJIC,Bosnia and Herzegovina,3,1500000.0,0.5477225575051662,2.21,1.073,2.37,Switzerland | Qatar | Canada
+Ivan TONEY,England,0,50000000.0,0.547722557505157,3.01,1.213,3.65,Ghana | Panama | Croatia
+JOAO CANCELO,Portugal,1,25000000.0,3.8078865529319534,3.64,0.98,3.57,Uzbekistan | DR Congo | Colombia
+JOAO FELIX,Portugal,0,25000000.0,2.8284271247461903,2.8,0.98,2.74,Uzbekistan | DR Congo | Colombia
+JOAO NEVES,Portugal,3,110000000.0,2.5099800796022267,2.41,0.98,2.36,Uzbekistan | DR Congo | Colombia
+JOSE SA,Portugal,2,5000000.0,1.4142135623730965,2.62,0.98,2.57,Uzbekistan | DR Congo | Colombia
+Jack Hendry,Scotland,1,3000000.0,3.577708763999664,2.62,1.013,2.65,Haiti | Morocco | Brazil
+Jackson IRVINE,Australia,3,1500000.0,1.3416407864998738,2.24,0.937,2.1,Turkey | Paraguay | United States
+Jackson POROZO,Ecuador,1,3300000.0,2.588435821108957,2.56,0.953,2.44,Ivory Coast | Germany | Curaçao
+Jaloliddin Masharipov,Uzbekistan,0,1700000.0,1.095445115010332,2.66,1.187,3.16,Colombia | Portugal | DR Congo
+Jamal MUSIALA,Germany,3,130000000.0,0.4472135954999474,2.48,0.953,2.36,Ivory Coast | Curaçao | Ecuador
+James RODRIGUEZ,Colombia,3,6000000.0,0.0,1.77,1.223,2.17,Uzbekistan | DR Congo | Portugal
+James TRAFFORD,England,2,18000000.0,2.7386127875258306,3.71,1.213,4.5,Ghana | Panama | Croatia
+Jamie LEWELING,Germany,0,25000000.0,1.870828693386972,3.47,0.953,3.31,Ivory Coast | Curaçao | Ecuador
+Jan KUCHTA,Czechia,0,4000000.0,3.7815340802378064,3.81,1.177,4.48,South Korea | South Africa | Mexico
+Jan Paul VAN HECKE,Netherlands,1,35000000.0,3.420526275297414,3.06,1.2,3.67,Sweden | Tunisia | Japan
+Jaouen HADJAM,Algeria,1,2000000.0,3.286335345030997,2.61,0.877,2.29,Argentina | Jordan | Austria
+Jarell QUANSAH,England,1,40000000.0,0.9999999999999992,2.81,1.213,3.41,Ghana | Panama | Croatia
+Jaroslav ZELENY,Czechia,1,50000.0,1.7888543819998313,1.6,1.177,1.88,South Korea | South Africa | Mexico
+Jean-Kevin DUVERNE,Haiti,1,3500000.0,3.1304951684997055,1.87,0.937,1.75,Scotland | Morocco | Brazil
+Jean-Philippe MATETA,France,0,40000000.0,2.073644135332772,2.65,1.293,3.43,Senegal | Iraq | Norway
+Jean-Ricner Bellegarde,Haiti,3,15000000.0,1.6431676725154982,2.07,0.937,1.94,Scotland | Morocco | Brazil
+Jefferson LERMA,Colombia,3,8000000.0,0.8944271909999167,1.86,1.223,2.28,Uzbekistan | DR Congo | Portugal
+Jens Petter HAUGE,Norway,0,2500000.0,2.949576240750525,4.59,0.973,4.47,Senegal | Iraq | France
+Jeremy AREVALO,Ecuador,0,50000.0,1.3416407864998738,1.53,0.953,1.46,Ivory Coast | Germany | Curaçao
+Jeremy Antonisse,Curaçao,0,800000.0,0.5477225575051673,2.45,0.593,1.45,Germany | Ecuador | Ivory Coast
+Jeremy DOKU,Belgium,0,65000000.0,4.658325879540846,3.64,1.267,4.61,Egypt | Iran | New Zealand
+Jerome OPOKU,Ghana,1,2000000.0,4.086563348340512,2.99,1.193,3.57,Panama | England | Croatia
+Jesper KARLSTROM,Sweden,3,4000000.0,0.4472135954999579,2.06,1.22,2.51,Tunisia | Netherlands | Japan
+Jhon ARIAS,Colombia,0,50000.0,4.242640687119285,2.78,1.223,3.4,Uzbekistan | DR Congo | Portugal
+Jhon CORDOBA,Colombia,0,10000000.0,3.4928498393145975,4.4,1.223,5.38,Uzbekistan | DR Congo | Portugal
+Jhon LUCUMI,Colombia,1,17000000.0,3.4928498393145957,2.87,1.223,3.51,Uzbekistan | DR Congo | Portugal
+Jindrich STANEK,Czechia,2,3500000.0,3.209361307176243,2.73,1.177,3.21,South Korea | South Africa | Mexico
+Joan GARCIA,Spain,2,30000000.0,2.738612787525831,3.77,0.793,2.99,Uruguay | Cape Verde | Saudi Arabia
+Joaquin PIQUEREZ,Uruguay,1,50000.0,3.2145502536643185,2.77,0.863,2.39,Saudi Arabia | Cape Verde | Spain
+Joaquin SEYS,Belgium,1,600000.0,1.224744871391572,2.18,1.267,2.76,Egypt | Iran | New Zealand
+Joe BELL,New Zealand,3,1200000.0,2.8284271247461903,2.52,1.273,3.21,Iran | Egypt | Belgium
+Joel ORDONEZ,Ecuador,1,6000000.0,3.2710854467592254,3.3,0.953,3.15,Ivory Coast | Germany | Curaçao
+Johan MANZAMBI,Switzerland,3,30000000.0,2.449489742783178,3.07,0.737,2.26,Qatar | Bosnia and Herzegovina | Canada
+Johan MOJICA,Colombia,1,1800000.0,3.5637059362410906,2.92,1.223,3.57,Uzbekistan | DR Congo | Portugal
+Johan VASQUEZ,Mexico,1,10000000.0,2.5099800796022267,3.14,1.333,4.19,South Africa | South Korea | Czechia
+John McGinn,Scotland,3,15000000.0,3.7682887362833544,3.58,1.013,3.63,Haiti | Morocco | Brazil
+John SOUTTAR,Scotland,1,3500000.0,1.30384048104053,2.14,1.013,2.17,Haiti | Morocco | Brazil
+John STONES,England,1,18000000.0,3.2403703492039297,2.6,1.213,3.15,Ghana | Panama | Croatia
+John YEBOAH,Ecuador,0,1500000.0,1.7888543819998317,2.85,0.953,2.72,Ivory Coast | Germany | Curaçao
+Johny Placide,Haiti,2,250000.0,2.387467277262665,2.6,0.937,2.44,Scotland | Morocco | Brazil
+Jonas ADJETEY,Ghana,1,50000.0,1.140175425099138,1.42,1.193,1.69,Panama | England | Croatia
+Jonathan DAVID,Canada,0,35000000.0,2.509980079602227,2.97,1.26,3.74,Bosnia and Herzegovina | Qatar | Switzerland
+Jonathan OSORIO,Canada,3,400000.0,1.6431676725154984,2.18,1.26,2.75,Bosnia and Herzegovina | Qatar | Switzerland
+Jonathan TAH,Germany,1,30000000.0,1.643167672515493,2.51,0.953,2.39,Ivory Coast | Curaçao | Ecuador
+Jordan AYEW,Ghana,0,1800000.0,2.5099800796022262,2.75,1.193,3.28,Panama | England | Croatia
+Jordan BOS,Australia,1,5000000.0,4.4721359549995805,3.45,0.937,3.23,Turkey | Paraguay | United States
+Jordan HENDERSON,England,3,2000000.0,0.8944271909999159,2.0,1.213,2.43,Ghana | Panama | Croatia
+Jordan PICKFORD,England,2,15000000.0,0.5477225575051662,2.51,1.213,3.05,Ghana | Panama | Croatia
+Jordy CAICEDO,Ecuador,0,3500000.0,0.5477225575051664,2.63,0.953,2.51,Ivory Coast | Germany | Curaçao
+Jorge CARRASCAL,Colombia,3,9000000.0,4.123105625617661,2.51,1.223,3.07,Uzbekistan | DR Congo | Portugal
+Jorge GUTIERREZ,Panama,0,600000.0,2.6076809620810586,2.33,1.1,2.56,Ghana | Croatia | England
+Jorge SANCHEZ,Mexico,1,3500000.0,2.7928480087537886,3.28,1.333,4.37,South Africa | South Korea | Czechia
+Jorgen STRAND LARSEN,Norway,0,40000000.0,0.5477225575051681,2.44,0.973,2.37,Senegal | Iraq | France
+Jorrel HATO,Netherlands,1,35000000.0,0.7071067811865485,2.93,1.2,3.52,Sweden | Tunisia | Japan
+Jose Luis RODRIGUEZ,Panama,0,2000000.0,1.7888543819998322,3.49,1.1,3.84,Ghana | Croatia | England
+Jose Manuel LOPEZ,Argentina,0,50000.0,2.6457513110645907,2.36,1.127,2.66,Austria | Jordan | Algeria
+Jose Maria GIMENEZ,Uruguay,1,22000000.0,3.563705936241091,2.35,0.863,2.03,Saudi Arabia | Cape Verde | Spain
+Joseph ANANG,Ghana,2,300000.0,3.898717737923586,2.89,1.193,3.45,Panama | England | Croatia
+Joshua BRENET,Curaçao,1,3500000.0,3.346640106136301,2.25,0.593,1.34,Germany | Ecuador | Ivory Coast
+Joshua KIMMICH,Germany,3,40000000.0,3.0495901363953815,2.82,0.953,2.69,Ivory Coast | Curaçao | Ecuador
+Josue CASIMIR,Haiti,0,3500000.0,0.4472135954999579,1.91,0.937,1.79,Scotland | Morocco | Brazil
+Juan Jose CACERES,Paraguay,1,4000000.0,3.535533905932736,2.74,0.933,2.56,Turkey | United States | Australia
+Juan MUSSO,Argentina,2,5000000.0,3.911521443121589,2.63,1.127,2.96,Austria | Jordan | Algeria
+Jude BELLINGHAM,England,3,160000000.0,2.16794833886788,2.87,1.213,3.48,Ghana | Panama | Croatia
+Juergen LOCADIA,Curaçao,0,1800000.0,2.23606797749979,2.42,0.593,1.44,Germany | Ecuador | Ivory Coast
+Jules KOUNDE,France,1,45000000.0,2.7018512172212534,3.62,1.293,4.68,Senegal | Iraq | Norway
+Julian ALVAREZ,Argentina,0,100000000.0,2.1908902300206634,4.93,1.127,5.55,Austria | Jordan | Algeria
+Julian RYERSON,Norway,1,20000000.0,3.8470768123342673,3.16,0.973,3.08,Senegal | Iraq | France
+Julio ENCISO,Paraguay,3,20000000.0,2.6832815729997477,2.51,0.933,2.34,Turkey | United States | Australia
+Juninho BACUNA,Curaçao,3,4500000.0,1.6431676725154982,2.47,0.593,1.47,Germany | Ecuador | Ivory Coast
+Junior ALONSO,Paraguay,1,8000000.0,3.286335345030995,3.12,0.933,2.91,Turkey | United States | Australia
+Junnosuke SUZUKI,Japan,1,50000.0,1.6431676725154984,2.54,1.177,2.99,Netherlands | Tunisia | Sweden
+Junya ITO,Japan,0,3500000.0,0.7071067811865441,2.44,1.177,2.87,Netherlands | Tunisia | Sweden
+Jurien GAARI,Curaçao,1,450000.0,5.916079783099616,2.83,0.593,1.68,Germany | Ecuador | Ivory Coast
+Jurrien TIMBER,Netherlands,1,70000000.0,4.183300132670377,3.03,1.2,3.64,Sweden | Tunisia | Japan
+Justin KLUIVERT,Netherlands,3,32000000.0,2.863564212655266,2.24,1.2,2.69,Sweden | Tunisia | Japan
+KARIM HAFEZ,Egypt,1,600000.0,1.0000000000000058,1.98,1.11,2.2,New Zealand | Iran | Belgium
+KEVIN YAKOB,Iraq,3,600000.0,5.495452665613635,3.05,0.923,2.82,Norway | Senegal | France
+Kai HAVERTZ,Germany,0,55000000.0,2.7748873851023212,3.07,0.953,2.93,Ivory Coast | Curaçao | Ecuador
+Kaishu SANO,Japan,3,25000000.0,1.3416407864998738,2.42,1.177,2.85,Netherlands | Tunisia | Sweden
+Kalidou KOULIBALY,Senegal,1,12000000.0,2.07364413533277,3.52,1.003,3.53,France | Norway | Iraq
+Kamaldeen SULEMANA,Ghana,0,18000000.0,0.547722557505166,2.56,1.193,3.05,Panama | England | Croatia
+Keisuke GOTO,Japan,0,50000.0,3.033150177620621,3.46,1.177,4.07,Netherlands | Tunisia | Sweden
+Keito Nakamura,Japan,0,8000000.0,4.722287581247038,3.53,1.177,4.15,Netherlands | Tunisia | Sweden
+Ken SEMA,Sweden,1,2500000.0,4.795831523312719,2.41,1.22,2.94,Tunisia | Netherlands | Japan
+Kendry PAEZ,Ecuador,3,50000.0,0.0,1.57,0.953,1.5,Ivory Coast | Germany | Curaçao
+Kenji GORRE,Curaçao,0,800000.0,1.8708286933869709,2.54,0.593,1.51,Germany | Ecuador | Ivory Coast
+Kenny McLEAN,Scotland,3,1200000.0,0.547722557505166,1.91,1.013,1.94,Haiti | Morocco | Brazil
+Kento SHIOGAI,Japan,0,2500000.0,0.4472135954999579,1.9,1.177,2.24,Netherlands | Tunisia | Sweden
+Kerim ALAJBEGOVIC,Bosnia and Herzegovina,0,8000000.0,4.8270073544588685,3.24,1.073,3.48,Switzerland | Qatar | Canada
+Kevin CASTANO,Colombia,3,5000000.0,1.7320508075688772,1.86,1.223,2.28,Uzbekistan | DR Congo | Portugal
+Kevin DE BRUYNE,Belgium,3,15000000.0,3.834057902536163,2.57,1.267,3.26,Egypt | Iran | New Zealand
+Kevin Danso,Austria,1,22000000.0,2.387467277262665,2.74,1.147,3.14,Jordan | Argentina | Algeria
+Kevin FELIDA,Curaçao,3,350000.0,0.5477225575051662,1.89,0.593,1.12,Germany | Ecuador | Ivory Coast
+Kevin RODRIGUEZ,Ecuador,0,5000000.0,0.5477225575051693,2.38,0.953,2.27,Ivory Coast | Germany | Curaçao
+Kieran Tierney,Scotland,1,8000000.0,2.509980079602227,3.08,1.013,3.12,Haiti | Morocco | Brazil
+Kobbie MAINOO,England,3,40000000.0,2.3874672772626644,2.53,1.213,3.07,Ghana | Panama | Croatia
+Kojo Peprah OPPONG,Ghana,1,50000.0,2.387467277262665,2.75,1.193,3.28,Panama | England | Croatia
+Koki OGAWA,Japan,0,2500000.0,2.2360679774997902,2.21,1.177,2.6,Netherlands | Tunisia | Sweden
+Koni DE WINTER,Belgium,1,12000000.0,1.3038404810405304,2.49,1.267,3.15,Egypt | Iran | New Zealand
+Konrad LAIMER,Austria,1,32000000.0,2.7018512172212548,2.9,1.147,3.33,Jordan | Argentina | Algeria
+Kosta BARBAROUSES,New Zealand,0,500000.0,0.5477225575051662,2.19,1.273,2.79,Iran | Egypt | Belgium
+Kou ITAKURA,Japan,1,10000000.0,2.8284271247461903,2.24,1.177,2.64,Netherlands | Tunisia | Sweden
+Krepin DIATTA,Senegal,3,6000000.0,0.4472135954999579,1.64,1.003,1.65,France | Norway | Iraq
+Kristian Thorstvedt,Norway,3,8000000.0,2.16794833886788,2.89,0.973,2.81,Senegal | Iraq | France
+Kristoffer AJER,Norway,1,16000000.0,4.09878030638384,2.2,0.973,2.14,Senegal | Iraq | France
+Kristoffer NORDFELDT,Sweden,2,300000.0,3.3615472627943217,2.78,1.22,3.39,Tunisia | Netherlands | Japan
+Kwasi SIBO,Ghana,3,300000.0,0.5477225575051662,1.84,1.193,2.2,Panama | England | Croatia
+Kylian MBAPPE,France,0,180000000.0,2.5099800796022262,6.69,1.293,8.65,Senegal | Iraq | Norway
+LEO PEREIRA,Brazil,0,1200000.0,0.5477225575051661,2.22,1.307,2.9,Morocco | Haiti | Scotland
+LUCAS MENDES,Qatar,1,500000.0,2.16794833886788,2.86,1.077,3.08,Switzerland | Canada | Bosnia and Herzegovina
+LUCAS PAQUETA,Brazil,3,35000000.0,3.5777087639996634,3.05,1.307,3.99,Morocco | Haiti | Scotland
+LUIZ HENRIQUE,Brazil,3,300000.0,0.5773502691896257,1.63,1.307,2.13,Morocco | Haiti | Scotland
+Ladislav KREJCI,Czechia,3,200000.0,0.4472135954999579,1.94,1.177,2.28,South Korea | South Africa | Mexico
+Lamine CAMARA,Senegal,3,30000000.0,2.6076809620810595,2.37,1.003,2.38,France | Norway | Iraq
+Lamine YAMAL,Spain,0,120000000.0,5.04975246918104,4.31,0.793,3.42,Uruguay | Cape Verde | Saudi Arabia
+Lautaro MARTINEZ,Argentina,0,85000000.0,3.834057902536163,4.46,1.127,5.02,Austria | Jordan | Algeria
+Lawrence SHANKLAND,Scotland,0,2500000.0,3.316624790355399,4.13,1.013,4.19,Haiti | Morocco | Brazil
+Leandro BACUNA,Curaçao,3,900000.0,4.08656334834051,2.95,0.593,1.75,Germany | Ecuador | Ivory Coast
+Leandro PAREDES,Argentina,3,5000000.0,3.1144823004794877,2.14,1.127,2.41,Austria | Jordan | Algeria
+Leandro TROSSARD,Belgium,0,20000000.0,2.345207879911715,2.87,1.267,3.64,Egypt | Iran | New Zealand
+Lennart KARL,Germany,3,60000000.0,3.4351128074635335,2.7,0.953,2.57,Ivory Coast | Curaçao | Ecuador
+Lenny JOSEPH,Haiti,0,500000.0,0.0,1.89,0.937,1.77,Scotland | Morocco | Brazil
+Leo OSTIGARD,Norway,1,10000000.0,2.607680962081059,2.84,0.973,2.76,Senegal | Iraq | France
+Leon GORETZKA,Germany,3,15000000.0,4.658325879540846,3.14,0.953,2.99,Ivory Coast | Curaçao | Ecuador
+Leonardo BALERDI,Argentina,1,20000000.0,2.701851217221259,2.73,1.127,3.08,Austria | Jordan | Algeria
+Leroy SANE,Germany,0,23000000.0,2.3874672772626644,3.13,0.953,2.98,Ivory Coast | Curaçao | Ecuador
+Lewis FERGUSON,Scotland,3,20000000.0,0.547722557505166,2.17,1.013,2.2,Haiti | Morocco | Brazil
+Liam KELLY,Scotland,3,600000.0,4.827007354458868,3.11,1.013,3.15,Haiti | Morocco | Brazil
+Liam MILLAR,Canada,0,1700000.0,0.5477225575051646,2.51,1.26,3.16,Bosnia and Herzegovina | Qatar | Switzerland
+Liberato CACACE,New Zealand,1,3000000.0,1.7320508075688774,2.45,1.273,3.12,Iran | Egypt | Belgium
+Lionel MESSI,Argentina,0,35000000.0,2.9495762407505373,4.27,1.127,4.81,Austria | Jordan | Algeria
+Lisandro MARTINEZ,Argentina,1,50000000.0,3.361547262794322,3.21,1.127,3.62,Austria | Jordan | Algeria
+Louicius DEEDSON,Haiti,0,1200000.0,2.701851217221259,3.31,0.937,3.1,Scotland | Morocco | Brazil
+Luc DE FOUGEROLLES,Canada,1,300000.0,3.5355339059327378,1.97,1.26,2.48,Bosnia and Herzegovina | Qatar | Switzerland
+Luca JAQUEZ,Switzerland,1,10000000.0,0.8366600265340756,2.15,0.737,1.58,Qatar | Bosnia and Herzegovina | Canada
+Luca ZIDANE,Algeria,2,2000000.0,1.2247448713915878,2.57,0.877,2.25,Argentina | Jordan | Austria
+Lucas BERGVALL,Sweden,3,40000000.0,1.3038404810405304,2.08,1.22,2.54,Tunisia | Netherlands | Japan
+Lucas Digne,France,1,8000000.0,2.645751311064589,2.96,1.293,3.83,Senegal | Iraq | Norway
+Lucas HERNANDEZ,France,1,20000000.0,4.636809247747851,2.77,1.293,3.58,Senegal | Iraq | Norway
+Luis CHAVEZ,Mexico,3,9000000.0,1.6431676725154982,2.03,1.333,2.71,South Africa | South Korea | Czechia
+Luis DIAZ,Colombia,0,70000000.0,3.97492138287036,3.55,1.223,4.34,Uzbekistan | DR Congo | Portugal
+Luis SUAREZ,Colombia,0,4000000.0,0.5477225575051675,2.47,1.223,3.02,Uzbekistan | DR Congo | Portugal
+Lukas CERV,Czechia,3,50000.0,2.302172886644267,2.76,1.177,3.25,South Korea | South Africa | Mexico
+Lukas HORNICEK,Czechia,2,10000000.0,2.449489742783176,2.82,1.177,3.32,South Korea | South Africa | Mexico
+Lukas PROVOD,Czechia,0,50000.0,0.4472135954999579,3.0,1.177,3.53,South Korea | South Africa | Mexico
+Lyle FOSTER,South Africa,0,13000000.0,1.6431676725154982,2.83,1.137,3.22,South Korea | Mexico | Czechia
+Lyndon DYKES,Scotland,0,2500000.0,2.949576240750524,3.56,1.013,3.61,Haiti | Morocco | Brazil
+MARQUINHOS,Brazil,1,30000000.0,4.242640687119285,3.34,1.307,4.36,Morocco | Haiti | Scotland
+MATHEUS CUNHA,Brazil,0,45000000.0,2.8284271247461907,3.57,1.307,4.66,Morocco | Haiti | Scotland
+MATHEUS NUNES,Portugal,1,38000000.0,3.114482300479484,3.07,0.98,3.01,Uzbekistan | DR Congo | Colombia
+MAURICIO,Paraguay,3,200000.0,0.8944271909999159,1.8,0.933,1.68,Turkey | United States | Australia
+MERCHAS DOSKI,Iraq,1,50000.0,3.9370039370059056,3.04,0.923,2.81,Norway | Senegal | France
+MOHAMED ABDELMONEIM,Egypt,1,3000000.0,0.5477225575051671,2.54,1.11,2.82,New Zealand | Iran | Belgium
+MOHAMED KANNO,Saudi Arabia,3,50000.0,0.5,1.56,0.723,1.13,Uruguay | Spain | Cape Verde
+MOHAMED MANAI,Qatar,0,150000.0,0.5477225575051664,2.26,1.077,2.43,Switzerland | Canada | Bosnia and Herzegovina
+MOHAMED SALAH,Egypt,0,30000000.0,3.2863353450309947,3.32,1.11,3.69,New Zealand | Iran | Belgium
+MOHANAD ALI,Iraq,0,350000.0,0.0,1.85,0.923,1.71,Norway | Senegal | France
+MOTEB ALHARBI,Saudi Arabia,1,50000.0,0.5773502691896257,1.51,0.723,1.09,Uruguay | Spain | Cape Verde
+MUSAB ALJUWAYR,Saudi Arabia,3,50000.0,0.0,1.28,0.723,0.93,Uruguay | Spain | Cape Verde
+Maghnes AKLIOUCHE,France,0,45000000.0,1.8165902124584965,3.22,1.293,4.16,Senegal | Iraq | Norway
+Malick THIAW,Germany,1,25000000.0,0.4472135954999313,2.8,0.953,2.67,Ivory Coast | Curaçao | Ecuador
+Malo GUSTO,France,1,35000000.0,3.0822070014844876,2.76,1.293,3.57,Senegal | Iraq | Norway
+Mamadou SARR,Senegal,1,25000000.0,2.701851217221262,2.51,1.003,2.52,France | Norway | Iraq
+Manu KONE,France,3,50000000.0,1.51657508881031,2.53,1.293,3.27,Senegal | Iraq | Norway
+Manuel AKANJI,Switzerland,1,22000000.0,3.741657386773942,3.15,0.737,2.32,Qatar | Bosnia and Herzegovina | Canada
+Manuel NEUER,Germany,2,4000000.0,4.08656334834051,2.7,0.953,2.57,Ivory Coast | Curaçao | Ecuador
+Manuel UGARTE,Uruguay,3,30000000.0,0.0,1.6,0.863,1.38,Saudi Arabia | Cape Verde | Spain
+Marc CUCURELLA,Spain,1,50000000.0,2.6076809620810595,2.96,0.793,2.35,Uruguay | Cape Verde | Saudi Arabia
+Marc GUEHI,England,1,55000000.0,1.7888543819998308,3.75,1.213,4.55,Ghana | Panama | Croatia
+Marc PUBILL,Spain,1,4000000.0,2.509980079602226,3.11,0.793,2.47,Uruguay | Cape Verde | Saudi Arabia
+Marcel SABITZER,Austria,3,7000000.0,0.4472135954999582,2.06,1.147,2.36,Jordan | Argentina | Algeria
+Marcelo FLORES,Canada,3,50000.0,0.4472135954999579,1.46,1.26,1.84,Bosnia and Herzegovina | Qatar | Switzerland
+Marco FRIEDL,Austria,1,12000000.0,3.3615472627943213,2.46,1.147,2.82,Jordan | Argentina | Algeria
+Marcos LLORENTE,Spain,1,22000000.0,0.4472135954999617,2.8,0.793,2.22,Uruguay | Cape Verde | Saudi Arabia
+Marcus RASHFORD,England,0,40000000.0,2.7748873851023212,3.01,1.213,3.65,Ghana | Panama | Croatia
+Marcus THURAM,France,0,60000000.0,2.302172886644266,3.64,1.293,4.71,Senegal | Iraq | Norway
+Mark FLEKKEN,Netherlands,2,8000000.0,2.774887385102321,2.7,1.2,3.24,Sweden | Tunisia | Japan
+Marko ARNAUTOVIC,Austria,0,2500000.0,1.8708286933869704,2.56,1.147,2.94,Jordan | Argentina | Algeria
+Marko STAMENIC,New Zealand,3,3000000.0,1.6431676725154982,2.38,1.273,3.03,Iran | Egypt | Belgium
+Marten DE ROON,Netherlands,3,7000000.0,0.0,2.03,1.2,2.44,Sweden | Tunisia | Japan
+Martin ZLOMISLIC,Bosnia and Herzegovina,2,50000.0,3.361547262794322,2.75,1.073,2.95,Switzerland | Qatar | Canada
+Martin ZUBIMENDI,Spain,3,50000000.0,0.4472135954999579,1.69,0.793,1.34,Uruguay | Cape Verde | Saudi Arabia
+Marvin KELLER,Switzerland,2,50000.0,3.0000000000000004,2.51,0.737,1.85,Qatar | Bosnia and Herzegovina | Canada
+Marvin SENAYA,Ghana,1,3000000.0,3.033150177620621,1.95,1.193,2.33,Panama | England | Croatia
+Matej KOVAR,Czechia,2,7000000.0,2.9154759474226504,2.82,1.177,3.32,South Korea | South Africa | Mexico
+Mateo CHAVEZ,Mexico,1,50000.0,3.03315017762062,2.37,1.333,3.16,South Africa | South Korea | Czechia
+Mathew LECKIE,Australia,0,700000.0,0.5477225575051662,2.06,0.937,1.93,Turkey | Paraguay | United States
+Mathew RYAN,Australia,2,2000000.0,3.911521443121588,2.7,0.937,2.53,Turkey | Paraguay | United States
+Mathias OLIVERA,Uruguay,1,18000000.0,2.60768096208106,2.52,0.863,2.18,Saudi Arabia | Cape Verde | Spain
+Matias FERNANDEZ-PARDO,Belgium,0,3000000.0,2.949576240750525,3.55,1.267,4.5,Egypt | Iran | New Zealand
+Matias GALARZA,Paraguay,3,7000000.0,0.5477225575051662,2.1,0.933,1.96,Turkey | United States | Australia
+Matias VINA,Uruguay,1,10000000.0,1.303840481040531,2.81,0.863,2.43,Saudi Arabia | Cape Verde | Spain
+Mats WIEFFER,Netherlands,1,25000000.0,9.316651759081694,2.98,1.2,3.58,Sweden | Tunisia | Japan
+Matthew GARBETT,New Zealand,3,500000.0,0.547722557505166,1.81,1.273,2.3,Iran | Egypt | Belgium
+Mattias SVANBERG,Sweden,3,12000000.0,2.3874672772626644,1.81,1.22,2.21,Tunisia | Netherlands | Japan
+Maxence Lacroix,France,1,35000000.0,3.209361307176243,2.92,1.293,3.78,Senegal | Iraq | Norway
+Maxi ARAUJO,Uruguay,1,22000000.0,3.577708763999663,3.29,0.863,2.84,Saudi Arabia | Cape Verde | Spain
+Maxim DE CUYPER,Belgium,1,22000000.0,5.594640292279744,2.75,1.267,3.48,Egypt | Iran | New Zealand
+Maximilian BEIER,Germany,0,30000000.0,3.492849839314595,3.81,0.953,3.63,Ivory Coast | Curaçao | Ecuador
+Memphis DEPAY,Netherlands,0,10000000.0,2.1679483388678804,2.56,1.2,3.07,Sweden | Tunisia | Japan
+Michael Gregoritsch,Austria,0,1500000.0,3.807886552931955,3.82,1.147,4.38,Jordan | Argentina | Algeria
+Michael OLISE,France,0,130000000.0,3.492849839314592,4.16,1.293,5.38,Senegal | Iraq | Norway
+Michael SVOBODA,Austria,1,900000.0,0.8366600265340752,2.52,1.147,2.89,Jordan | Argentina | Algeria
+Michael WOUD,New Zealand,2,250000.0,0.957427107756338,2.24,1.273,2.85,Iran | Egypt | Belgium
+Michal SADILEK,Czechia,3,7500000.0,0.4472135954999579,2.25,1.177,2.65,South Korea | South Africa | Mexico
+Michel AEBISCHER,Switzerland,3,4500000.0,0.5477225575051663,1.99,0.737,1.47,Qatar | Bosnia and Herzegovina | Canada
+Micky VAN DE VEN,Netherlands,1,55000000.0,2.701851217221265,3.2,1.2,3.84,Sweden | Tunisia | Japan
+Miguel ALMIRON,Paraguay,0,9000000.0,0.5477225575051662,2.67,0.933,2.49,Turkey | United States | Australia
+Mike MAIGNAN,France,2,38000000.0,3.3615472627943213,3.0,1.293,3.88,Senegal | Iraq | Norway
+Mike PENDERS,Belgium,2,1000000.0,0.8366600265340742,2.64,1.267,3.34,Egypt | Iran | New Zealand
+Mikel MERINO,Spain,3,30000000.0,2.345207879911715,2.4,0.793,1.9,Uruguay | Cape Verde | Saudi Arabia
+Mikel OYARZABAL,Spain,0,25000000.0,4.43846820423443,3.69,0.793,2.93,Uruguay | Cape Verde | Saudi Arabia
+Miro MUHEIM,Switzerland,1,50000.0,1.3038404810405295,2.28,0.737,1.68,Qatar | Bosnia and Herzegovina | Canada
+Mohamed AMOURA,Algeria,0,32000000.0,1.5165750888103016,3.14,0.877,2.75,Argentina | Jordan | Austria
+Mohamed HADJ MAHMOUD,Tunisia,3,50000.0,0.5773502691896258,1.5,1.27,1.9,Sweden | Japan | Netherlands
+Mohamed TOURE,Australia,0,1700000.0,4.277849927241487,3.2,0.937,3.0,Turkey | Paraguay | United States
+Moise BOMBITO,Canada,1,8000000.0,3.130495168499705,2.94,1.26,3.7,Bosnia and Herzegovina | Qatar | Switzerland
+Moises CAICEDO,Ecuador,3,110000000.0,0.4472135954999579,2.43,0.953,2.32,Ivory Coast | Germany | Curaçao
+Moises RAMIREZ,Ecuador,2,50000.0,3.7416573867739418,2.54,0.953,2.42,Ivory Coast | Germany | Curaçao
+Mojmir CHYTIL,Czechia,0,50000.0,0.7071067811865476,1.94,1.177,2.28,South Korea | South Africa | Mexico
+Montassar TALBI,Tunisia,1,7000000.0,2.509980079602227,3.16,1.27,4.01,Sweden | Japan | Netherlands
+Morgan ROGERS,England,3,70000000.0,3.6742346141747673,3.45,1.213,4.19,Ghana | Panama | Croatia
+Mortadha BEN OUANES,Tunisia,0,1500000.0,2.6832815729997477,3.29,1.27,4.18,Sweden | Japan | Netherlands
+Morten Thorsby,Norway,3,3000000.0,0.4472135954999579,1.74,0.973,1.69,Senegal | Iraq | France
+Mory DIAW,Senegal,2,1800000.0,1.3416407864998718,2.62,1.003,2.63,France | Norway | Iraq
+Moussa Niakhate,Senegal,1,16000000.0,2.6076809620810586,2.65,1.003,2.66,France | Norway | Iraq
+Munir EL KAJOUI,Morocco,2,1000000.0,4.549725266430929,2.82,0.983,2.77,Scotland | Brazil | Haiti
+NASSER ALDAWSARI,Saudi Arabia,3,50000.0,1.5,2.37,0.723,1.71,Uruguay | Spain | Cape Verde
+NELSON SEMEDO,Portugal,1,7500000.0,3.3615472627943217,2.77,0.98,2.71,Uzbekistan | DR Congo | Colombia
+NUNO MENDES,Portugal,1,75000000.0,3.130495168499708,2.55,0.98,2.5,Uzbekistan | DR Congo | Colombia
+Nabil Bentaleb,Algeria,3,5000000.0,0.4472135954999579,2.22,0.877,1.95,Argentina | Jordan | Austria
+Nadhir BENBOUALI,Algeria,0,600000.0,0.4472135954999561,1.94,0.877,1.7,Argentina | Jordan | Austria
+Nadiem Amiri,Germany,3,17000000.0,2.509980079602227,2.57,0.953,2.45,Ivory Coast | Curaçao | Ecuador
+Nahuel MOLINA,Argentina,1,15000000.0,3.033150177620621,2.28,1.127,2.57,Austria | Jordan | Algeria
+Nathan AKE,Netherlands,1,18000000.0,3.1304951684997055,3.19,1.2,3.83,Sweden | Tunisia | Japan
+Nathan NGOY,Belgium,1,3500000.0,2.0736441353327737,3.57,1.267,4.52,Egypt | Iran | New Zealand
+Nathan PATTERSON,Scotland,1,10000000.0,3.0,2.72,1.013,2.76,Haiti | Morocco | Brazil
+Nathaniel BROWN,Germany,1,35000000.0,0.9999999999999996,2.93,0.953,2.79,Ivory Coast | Curaçao | Ecuador
+Nayef AGUERD,Morocco,1,22000000.0,0.8366600265340712,2.59,0.983,2.55,Scotland | Brazil | Haiti
+Neil EL AYNAOUI,Morocco,3,8000000.0,3.3911649915626345,2.52,0.983,2.48,Scotland | Brazil | Haiti
+Nick WOLTEMADE,Germany,0,70000000.0,2.6076809620810595,2.81,0.953,2.68,Ivory Coast | Curaçao | Ecuador
+Nico ELVEDI,Switzerland,1,8000000.0,3.1144823004794904,2.87,0.737,2.11,Qatar | Bosnia and Herzegovina | Canada
+Nico GONZALEZ,Argentina,0,35000000.0,5.049752469181039,3.08,1.127,3.47,Austria | Jordan | Algeria
+Nico OREILLY,England,1,40000000.0,3.4205262752974117,3.51,1.213,4.26,Ghana | Panama | Croatia
+Nico PAZ,Argentina,3,65000000.0,3.674234614174768,3.15,1.127,3.55,Austria | Jordan | Algeria
+Nico SCHLOTTERBECK,Germany,1,55000000.0,3.6469165057620927,3.21,0.953,3.06,Ivory Coast | Curaçao | Ecuador
+Nico WILLIAMS,Spain,0,60000000.0,5.495452665613635,3.84,0.793,3.05,Uruguay | Cape Verde | Saudi Arabia
+Nicolas JACKSON,Senegal,0,45000000.0,2.6076809620810595,2.67,1.003,2.68,France | Norway | Iraq
+Nicolas OTAMENDI,Argentina,1,1000000.0,2.607680962081057,2.81,1.127,3.17,Austria | Jordan | Algeria
+Nicolas RASKIN,Belgium,3,6500000.0,2.5099800796022262,3.28,1.267,4.15,Egypt | Iran | New Zealand
+Nicolas SEIWALD,Austria,3,16000000.0,0.5477225575051662,1.98,1.147,2.27,Jordan | Argentina | Algeria
+Nicolas TAGLIAFICO,Argentina,1,8000000.0,2.387467277262677,2.61,1.127,2.94,Austria | Jordan | Algeria
+Nidal CELIK,Bosnia and Herzegovina,1,1000000.0,1.303840481040529,2.32,1.073,2.49,Switzerland | Qatar | Canada
+Nihad MUJAKIC,Bosnia and Herzegovina,1,2000000.0,3.1144823004794877,2.34,1.073,2.51,Switzerland | Qatar | Canada
+Niko SIGUR,Canada,3,50000.0,0.5,1.55,1.26,1.95,Bosnia and Herzegovina | Qatar | Switzerland
+Nikola KATIC,Bosnia and Herzegovina,1,1200000.0,4.4944410108488455,3.19,1.073,3.42,Switzerland | Qatar | Canada
+Nikola VASILJ,Bosnia and Herzegovina,2,4500000.0,1.5165750888103136,2.51,1.073,2.69,Switzerland | Qatar | Canada
+Nilson ANGULO,Ecuador,0,7000000.0,0.5477225575051594,2.73,0.953,2.6,Ivory Coast | Germany | Curaçao
+Noa LANG,Netherlands,0,25000000.0,0.8944271909999159,2.38,1.2,2.86,Sweden | Tunisia | Japan
+Noah OKAFOR,Switzerland,0,18000000.0,4.604345773288535,3.98,0.737,2.93,Qatar | Bosnia and Herzegovina | Canada
+Noni MADUEKE,England,0,50000000.0,0.5477225575051702,2.5,1.213,3.03,Ghana | Panama | Croatia
+Noussair MAZRAOUI,Morocco,1,22000000.0,3.4928498393145966,2.87,0.983,2.82,Scotland | Brazil | Haiti
+OMAR MARMOUSH,Egypt,0,65000000.0,2.683281572999749,3.29,1.11,3.65,New Zealand | Iran | Belgium
+Obed VARGAS,Mexico,3,50000.0,1.224744871391589,1.94,1.333,2.59,South Africa | South Korea | Czechia
+Oliver Baumann,Germany,2,3000000.0,2.7748873851023212,2.76,0.953,2.63,Ivory Coast | Curaçao | Ecuador
+Ollie WATKINS,England,0,30000000.0,5.449770637375486,4.13,1.213,5.01,Ghana | Panama | Croatia
+Omar ALDERETE,Paraguay,1,12000000.0,4.27784992724149,2.7,0.933,2.52,Turkey | United States | Australia
+Omar Rekik,Tunisia,1,600000.0,0.4472135954999579,1.45,1.27,1.84,Sweden | Japan | Netherlands
+Orbelin PINEDA,Mexico,3,7000000.0,0.4472135954999579,2.19,1.333,2.92,South Africa | South Korea | Czechia
+Orjan NYLAND,Norway,2,900000.0,2.073644135332772,2.48,0.973,2.41,Senegal | Iraq | France
+Oscar BOBB,Norway,0,25000000.0,0.4472135954999579,2.37,0.973,2.31,Senegal | Iraq | France
+Oston URUNOV,Uzbekistan,0,1000000.0,0.5477225575051662,2.22,1.187,2.63,Colombia | Portugal | DR Congo
+Otabek Shukurov,Uzbekistan,3,1600000.0,0.7071067811865476,1.85,1.187,2.2,Colombia | Portugal | DR Congo
+Ousmane DEMBELE,France,0,100000000.0,5.176871642217913,3.66,1.293,4.73,Senegal | Iraq | Norway
+PEDRI,Spain,3,80000000.0,1.516575088810311,2.77,0.793,2.2,Uruguay | Cape Verde | Saudi Arabia
+PEDRO MIGUEL,Qatar,3,150000.0,1.9235384061671348,2.03,1.077,2.19,Switzerland | Canada | Bosnia and Herzegovina
+PEDRO NETO,Portugal,0,60000000.0,1.643167672515497,3.53,0.98,3.46,Uzbekistan | DR Congo | Colombia
+Pape GUEYE,Senegal,3,6000000.0,0.4472135954999579,2.26,1.003,2.27,France | Norway | Iraq
+Pape Matar SARR,Senegal,3,35000000.0,1.224744871391589,2.28,1.003,2.29,France | Norway | Iraq
+Pascal GROSS,Germany,3,3500000.0,1.3416407864998738,2.64,0.953,2.52,Ivory Coast | Curaçao | Ecuador
+Pathe CISS,Senegal,3,2000000.0,0.5477225575051662,1.91,1.003,1.92,France | Norway | Iraq
+Patrick BERG,Norway,3,4500000.0,0.0,2.39,0.973,2.33,Senegal | Iraq | France
+Patrick PENTZ,Austria,2,2200000.0,3.361547262794322,2.77,1.147,3.18,Jordan | Argentina | Algeria
+Patrick WIMMER,Austria,0,15000000.0,2.23606797749979,2.98,1.147,3.42,Jordan | Argentina | Algeria
+Patrik Schick,Czechia,0,25000000.0,6.519202405202651,5.0,1.177,5.88,South Korea | South Africa | Mexico
+Pau CUBARSI,Spain,1,30000000.0,2.7386127875258293,3.57,0.793,2.83,Uruguay | Cape Verde | Saudi Arabia
+Paul Izzo,Australia,2,600000.0,3.130495168499705,2.96,0.937,2.77,Turkey | Paraguay | United States
+Paul WANNER,Austria,3,14000000.0,3.714835124201342,2.94,1.147,3.37,Jordan | Argentina | Algeria
+Pavel SULC,Czechia,3,50000.0,2.6832815729997472,1.83,1.177,2.15,South Korea | South Africa | Mexico
+Pedro PORRO,Spain,1,40000000.0,3.4351128074635366,2.92,0.793,2.32,Uruguay | Cape Verde | Saudi Arabia
+Pedro VITE,Ecuador,0,350000.0,3.0,2.64,0.953,2.52,Ivory Coast | Germany | Curaçao
+Pervis ESTUPINAN,Ecuador,1,14000000.0,6.058052492344384,2.78,0.953,2.65,Ivory Coast | Germany | Curaçao
+Philipp Lienhart,Austria,1,12000000.0,3.492849839314594,2.43,1.147,2.79,Jordan | Argentina | Algeria
+Phillip MWENE,Austria,1,1500000.0,3.96232255123179,2.43,1.147,2.79,Jordan | Argentina | Algeria
+Piero HINCAPIE,Ecuador,1,50000000.0,2.607680962081059,2.51,0.953,2.39,Ivory Coast | Germany | Curaçao
+Prince ADU,Ghana,0,3500000.0,0.7071067811865478,2.33,1.193,2.78,Panama | England | Croatia
+Promise DAVID,Canada,0,13000000.0,1.516575088810311,3.26,1.26,4.11,Bosnia and Herzegovina | Qatar | Switzerland
+Quinten TIMBER,Netherlands,3,28000000.0,0.8944271909999159,2.26,1.2,2.71,Sweden | Tunisia | Japan
+RAFAEL LEAO,Portugal,0,90000000.0,1.923538406167138,3.08,0.98,3.02,Uzbekistan | DR Congo | Colombia
+RAPHINHA,Brazil,0,50000000.0,9.984988733093294,6.45,1.307,8.43,Morocco | Haiti | Scotland
+RAYAN,Brazil,0,50000.0,2.073644135332772,3.34,1.307,4.36,Morocco | Haiti | Scotland
+RENATO VEIGA,Portugal,1,25000000.0,0.4472135954999579,2.83,0.98,2.77,Uzbekistan | DR Congo | Colombia
+RODRI,Spain,1,250000.0,2.06155281280883,1.47,0.793,1.17,Uruguay | Cape Verde | Saudi Arabia
+ROGER IBANEZ,Brazil,1,28000000.0,3.492849839314596,3.22,1.307,4.21,Morocco | Haiti | Scotland
+RUBEN DIAS,Portugal,1,60000000.0,3.0495901363953797,2.75,0.98,2.7,Uzbekistan | DR Congo | Colombia
+RUBEN NEVES,Portugal,3,40000000.0,2.16794833886788,3.36,0.98,3.29,Uzbekistan | DR Congo | Colombia
+RUI SILVA,Portugal,2,8000000.0,0.8944271909999166,2.78,0.98,2.72,Uzbekistan | DR Congo | Colombia
+Rafik BELGHALI,Algeria,1,7000000.0,2.2360679774997902,3.04,0.877,2.67,Argentina | Jordan | Austria
+Ramiz ZERROUKI,Algeria,3,9000000.0,2.23606797749979,2.68,0.877,2.35,Argentina | Jordan | Austria
+Ramon SOSA,Paraguay,0,11000000.0,0.447213595499957,1.74,0.933,1.62,Turkey | United States | Australia
+Ramy BENSEBAINI,Algeria,1,7000000.0,5.495452665613634,3.07,0.877,2.69,Argentina | Jordan | Austria
+Rani Khedira,Tunisia,3,2000000.0,1.51657508881031,2.28,1.27,2.9,Sweden | Japan | Netherlands
+Raul JIMENEZ,Mexico,0,4000000.0,0.5477225575051694,2.47,1.333,3.29,South Africa | South Korea | Czechia
+Rayan AIT-NOURI,Algeria,1,40000000.0,3.130495168499708,3.12,0.877,2.74,Argentina | Jordan | Austria
+Rayan CHERKI,France,3,50000000.0,1.8165902124584936,2.43,1.293,3.14,Senegal | Iraq | Norway
+Redouane HALHAL,Morocco,1,100000.0,4.0,3.06,0.983,3.01,Scotland | Brazil | Haiti
+Remo FREULER,Switzerland,3,4000000.0,0.0,2.08,0.737,1.53,Qatar | Bosnia and Herzegovina | Canada
+Ricardo Ade,Haiti,0,150000.0,0.4472135954999579,1.79,0.937,1.68,Scotland | Morocco | Brazil
+Ricardo GOSS,South Africa,0,4500000.0,2.5099800796022262,3.07,1.137,3.49,South Korea | Mexico | Czechia
+Ricardo RODRIGUEZ,Switzerland,1,3500000.0,3.1144823004794873,2.61,0.737,1.92,Qatar | Bosnia and Herzegovina | Canada
+Richard RIOS,Colombia,3,50000.0,3.1144823004794873,3.12,1.223,3.82,Uzbekistan | DR Congo | Portugal
+Riechedly Bazoer,Curaçao,1,2800000.0,1.224744871391589,1.6,0.593,0.95,Germany | Ecuador | Ivory Coast
+Ritsu DOAN,Japan,0,18000000.0,1.51657508881031,2.95,1.177,3.47,Netherlands | Tunisia | Sweden
+Riyad Mahrez,Algeria,0,18000000.0,4.4721359549995805,4.21,0.877,3.69,Argentina | Jordan | Austria
+Robin HRANAC,Czechia,1,7000000.0,4.037325847637271,2.41,1.177,2.84,South Korea | South Africa | Mexico
+Robin RISSER,France,2,10000000.0,2.91547594742265,2.88,1.293,3.72,Senegal | Iraq | Norway
+Robin ROEFS,Netherlands,2,600000.0,3.5071355833500357,2.5,1.2,3.0,Sweden | Tunisia | Japan
+Rodrigo AGUIRRE,Uruguay,0,4500000.0,0.5477225575051659,2.14,0.863,1.85,Saudi Arabia | Cape Verde | Spain
+Rodrigo BENTANCUR,Uruguay,3,27000000.0,0.547722557505166,2.1,0.863,1.81,Saudi Arabia | Cape Verde | Spain
+Rodrigo DE PAUL,Argentina,3,15000000.0,1.6431676725154984,2.34,1.127,2.64,Austria | Jordan | Algeria
+Rodrigo ZALAZAR,Uruguay,3,20000000.0,1.9999999999999971,2.56,0.863,2.21,Saudi Arabia | Cape Verde | Spain
+Romano SCHMID,Austria,3,17000000.0,2.5099800796022267,3.4,1.147,3.9,Jordan | Argentina | Algeria
+Romelu LUKAKU,Belgium,0,15000000.0,1.7888543819998317,2.09,1.267,2.65,Egypt | Iran | New Zealand
+Ronald ARAUJO,Uruguay,1,70000000.0,0.4472135954999614,2.12,0.863,1.83,Saudi Arabia | Cape Verde | Spain
+Roshon VAN EIJMA,Curaçao,1,375000.0,1.8708286933869696,1.93,0.593,1.15,Germany | Ecuador | Ivory Coast
+Ross STEWART,Scotland,2,200000.0,0.4472135954999579,2.23,1.013,2.26,Haiti | Morocco | Brazil
+Ruben PROVIDENCE,Haiti,0,300000.0,0.0,1.8,0.937,1.69,Scotland | Morocco | Brazil
+Ruben VARGAS,Switzerland,0,9000000.0,1.6431676725154982,2.75,0.737,2.03,Qatar | Bosnia and Herzegovina | Canada
+Rustam ASHURMATOV,Uzbekistan,1,800000.0,1.3416407864998725,1.43,1.187,1.7,Colombia | Portugal | DR Congo
+Ryan Christie,Scotland,3,9000000.0,2.5099800796022267,2.39,1.013,2.42,Haiti | Morocco | Brazil
+Ryan GRAVENBERCH,Netherlands,3,90000000.0,2.3874672772626644,2.65,1.2,3.18,Sweden | Tunisia | Japan
+Ryan THOMAS,New Zealand,3,900000.0,0.5477225575051656,2.01,1.273,2.56,Iran | Egypt | Belgium
+SALEM ALDAWSARI,Saudi Arabia,0,2000000.0,1.1547005383792517,2.52,0.723,1.82,Uruguay | Spain | Cape Verde
+SAMU COSTA,Portugal,3,15000000.0,2.7928480087537886,2.93,0.98,2.87,Uzbekistan | DR Congo | Colombia
+SAUD ABDULHAMID,Saudi Arabia,1,3000000.0,3.4205262752974117,3.02,0.723,2.18,Uruguay | Spain | Cape Verde
+Sadio MANE,Senegal,0,25000000.0,2.04939015319192,4.3,1.003,4.31,France | Norway | Iraq
+Samir CHERGUI,Algeria,1,50000.0,2.949576240750525,2.22,0.877,1.95,Argentina | Jordan | Austria
+Samir EL MOURABET,Morocco,3,8000000.0,3.3911649915626336,2.53,0.983,2.49,Scotland | Brazil | Haiti
+Sander BERGE,Norway,3,25000000.0,0.547722557505166,2.06,0.973,2.01,Senegal | Iraq | France
+Sander TANGVIK,Norway,2,50000.0,3.714835124201342,2.81,0.973,2.74,Senegal | Iraq | France
+Santiago ARIAS,Colombia,1,2500000.0,0.4472135954999581,1.62,1.223,1.98,Uzbekistan | DR Congo | Portugal
+Santiago BUENO,Uruguay,1,10000000.0,3.7148351242013424,2.87,0.863,2.48,Saudi Arabia | Cape Verde | Spain
+Santiago GIMENEZ,Mexico,0,40000000.0,0.4472135954999579,2.56,1.333,3.41,South Africa | South Korea | Czechia
+Sasa KALAJDZIC,Austria,0,2000000.0,1.6431676725154984,2.56,1.147,2.94,Jordan | Argentina | Algeria
+Scott MCKENNA,Scotland,1,9000000.0,1.140175425099133,2.46,1.013,2.49,Haiti | Morocco | Brazil
+Scott McTominay,Scotland,3,45000000.0,2.738612787525829,3.12,1.013,3.16,Haiti | Morocco | Brazil
+Sead KOLASINAC,Bosnia and Herzegovina,1,10000000.0,1.1401754250991392,2.31,1.073,2.48,Switzerland | Qatar | Canada
+Sebastian CACERES,Uruguay,1,3500000.0,2.6076809620810506,3.55,0.863,3.06,Saudi Arabia | Cape Verde | Spain
+Sebastian TOUNEKTI,Tunisia,0,300000.0,0.5477225575051675,2.31,1.27,2.93,Sweden | Japan | Netherlands
+Senne LAMMENS,Belgium,2,25000000.0,3.1304951684997055,3.33,1.267,4.22,Egypt | Iran | New Zealand
+Sergio ROCHET,Uruguay,2,3500000.0,3.286335345030997,2.66,0.863,2.3,Saudi Arabia | Cape Verde | Spain
+Sherel FLORANUS,Curaçao,1,800000.0,3.56370593624109,2.37,0.593,1.41,Germany | Ecuador | Ivory Coast
+Sherzod ESANOV,Uzbekistan,3,50000.0,2.6076809620810595,2.01,1.187,2.39,Colombia | Portugal | DR Congo
+Shogo TANIGUCHI,Japan,1,800000.0,0.4472135954999635,2.68,1.177,3.15,Netherlands | Tunisia | Sweden
+Shurandy SAMBO,Curaçao,1,2000000.0,1.949358868961793,1.94,0.593,1.15,Germany | Ecuador | Ivory Coast
+Silvan WIDMER,Switzerland,1,800000.0,2.1908902300206647,1.94,0.737,1.43,Qatar | Bosnia and Herzegovina | Canada
+Sofyan AMRABAT,Morocco,3,22000000.0,0.5477225575051647,2.02,0.983,1.99,Scotland | Brazil | Haiti
+Sontje HANSEN,Curaçao,0,3000000.0,2.449489742783178,3.32,0.593,1.97,Germany | Ecuador | Ivory Coast
+Stefan POSCH,Austria,1,14000000.0,1.414213562373095,2.79,1.147,3.2,Jordan | Argentina | Algeria
+Stepan CHALOUPEK,Czechia,1,50000.0,3.1144823004794877,2.29,1.177,2.69,South Korea | South Africa | Mexico
+Stephen EUSTAQUIO,Canada,3,11000000.0,0.4472135954999579,1.84,1.26,2.32,Bosnia and Herzegovina | Qatar | Switzerland
+Stjepan RADELJIC,Bosnia and Herzegovina,1,50000.0,3.361547262794322,2.88,1.073,3.09,Switzerland | Qatar | Canada
+TOMAS ARAUJO,Portugal,1,28000000.0,2.509980079602227,3.25,0.98,3.18,Uzbekistan | DR Congo | Colombia
+TREZEGUET,Egypt,0,4500000.0,0.4472135954999577,2.29,1.11,2.54,New Zealand | Iran | Belgium
+Taha ALI,Sweden,0,50000.0,1.949358868961794,2.19,1.22,2.67,Tunisia | Netherlands | Japan
+Tahith CHONG,Curaçao,0,6000000.0,0.4472135954999579,3.21,0.593,1.9,Germany | Ecuador | Ivory Coast
+Tajon BUCHANAN,Canada,0,8000000.0,2.16794833886788,2.81,1.26,3.54,Bosnia and Herzegovina | Qatar | Switzerland
+Takefusa KUBO,Japan,0,30000000.0,0.7071067811865477,2.41,1.177,2.84,Netherlands | Tunisia | Sweden
+Takehiro TOMIYASU,Japan,1,12000000.0,2.9999999999999987,2.28,1.177,2.68,Netherlands | Tunisia | Sweden
+Tani OLUWASEYI,Canada,0,50000.0,1.6431676725154984,2.32,1.26,2.92,Bosnia and Herzegovina | Qatar | Switzerland
+Tarik MUHAREMOVIC,Bosnia and Herzegovina,1,1200000.0,3.361547262794322,3.04,1.073,3.26,Switzerland | Qatar | Canada
+Tete YENGI,Australia,0,400000.0,0.4472135954999578,2.57,0.937,2.41,Turkey | Paraguay | United States
+Teun KOOPMEINERS,Netherlands,3,28000000.0,0.4472135954999579,1.97,1.2,2.36,Sweden | Tunisia | Japan
+Thelo AASGAARD,Norway,3,50000.0,2.489979919597747,2.11,0.973,2.05,Senegal | Iraq | France
+Theo HERNANDEZ,France,1,60000000.0,2.7386127875258284,3.63,1.293,4.69,Senegal | Iraq | Norway
+Thiago ALMADA,Argentina,0,20000000.0,0.0,2.37,1.127,2.67,Austria | Jordan | Algeria
+Thibaut COURTOIS,Belgium,2,28000000.0,3.1304951684997047,3.18,1.267,4.03,Egypt | Iran | New Zealand
+Thomas MEUNIER,Belgium,1,1800000.0,4.604345773288535,3.78,1.267,4.79,Egypt | Iran | New Zealand
+Thomas PARTEY,Ghana,3,5000000.0,0.7071067811865476,1.52,1.193,1.81,Panama | England | Croatia
+Tijjani REIJNDERS,Netherlands,3,65000000.0,1.7320508075688772,2.07,1.2,2.48,Sweden | Tunisia | Japan
+Timothy CASTAGNE,Belgium,1,10000000.0,2.9664793948382657,3.09,1.267,3.91,Egypt | Iran | New Zealand
+Tino LIVRAMENTO,England,1,40000000.0,4.2661458015403095,2.19,1.213,2.66,Ghana | Panama | Croatia
+Tomas CHORY,Czechia,0,1800000.0,0.5477225575051653,2.62,1.177,3.08,South Korea | South Africa | Mexico
+Tomas HOLES,Czechia,1,50000.0,0.5477225575051672,1.82,1.177,2.14,South Korea | South Africa | Mexico
+Tomas SOUCEK,Czechia,3,12000000.0,2.3874672772626644,2.5,1.177,2.94,South Korea | South Africa | Mexico
+Torbjorn HEGGEM,Norway,1,50000.0,3.420526275297414,1.94,0.973,1.89,Senegal | Iraq | France
+Tsuyoshi Watanabe,Japan,1,10000000.0,3.361547262794321,3.36,1.177,3.95,Netherlands | Tunisia | Sweden
+Tyler BINDON,New Zealand,1,1500000.0,9.451631252505216,2.33,1.273,2.97,Iran | Egypt | Belgium
+Tyrese NOSLIN,Curaçao,3,50000.0,3.714835124201342,2.5,0.593,1.48,Germany | Ecuador | Ivory Coast
+Unai SIMON,Spain,2,30000000.0,2.7748873851023217,3.05,0.793,2.42,Uruguay | Cape Verde | Saudi Arabia
+VINICIUS JUNIOR,Brazil,0,180000000.0,3.834057902536163,5.75,1.307,7.51,Morocco | Haiti | Scotland
+VITINHA,Portugal,3,110000000.0,0.5477225575051652,2.23,0.98,2.19,Uzbekistan | DR Congo | Colombia
+Valentin BARCO,Argentina,3,13000000.0,2.6076809620810595,2.18,1.127,2.46,Austria | Jordan | Algeria
+Victor LINDELOF,Sweden,1,15000000.0,3.492849839314593,3.0,1.22,3.66,Tunisia | Netherlands | Japan
+Victor MUNOZ,Spain,0,50000.0,0.4472135954999578,2.64,0.793,2.09,Uruguay | Cape Verde | Saudi Arabia
+Viktor GYOKERES,Sweden,0,70000000.0,5.856620185738529,3.79,1.22,4.62,Tunisia | Netherlands | Japan
+Virgil VAN DIJK,Netherlands,1,18000000.0,5.540758070878026,3.39,1.2,4.07,Sweden | Tunisia | Japan
+Vladimir COUFAL,Czechia,1,2700000.0,2.701851217221259,2.78,1.177,3.27,South Korea | South Africa | Mexico
+Vladimir DARIDA,Czechia,3,400000.0,0.4472135954999579,2.12,1.177,2.49,South Korea | South Africa | Mexico
+WESLEY,Brazil,1,50000.0,6.14817045957576,2.92,1.307,3.82,Morocco | Haiti | Scotland
+WEVERTON,Brazil,2,50000.0,2.8722813232690143,2.55,1.307,3.33,Morocco | Haiti | Scotland
+Waldemar ANTON,Germany,1,18000000.0,2.5099800796022262,2.91,0.953,2.77,Ivory Coast | Curaçao | Ecuador
+Warren ZAIRE-EMERY,France,3,50000000.0,2.073644135332772,2.45,1.293,3.17,Senegal | Iraq | Norway
+Wataru ENDO,Japan,3,5000000.0,0.5477225575051665,1.87,1.177,2.2,Netherlands | Tunisia | Sweden
+Wilguens PAUGAIN,Haiti,1,50000.0,3.1144823004794864,1.73,0.937,1.62,Scotland | Morocco | Brazil
+William SALIBA,France,1,90000000.0,2.167948338867879,3.78,1.293,4.89,Senegal | Iraq | Norway
+Willian PACHO,Ecuador,1,70000000.0,3.7416573867739418,3.31,0.953,3.16,Ivory Coast | Germany | Curaçao
+Wilson Isidor,Haiti,0,18000000.0,2.7386127875258306,2.32,0.937,2.17,Scotland | Morocco | Brazil
+Wout WEGHORST,Netherlands,0,3500000.0,2.302172886644267,3.61,1.2,4.33,Sweden | Tunisia | Japan
+Xaver Schlager,Austria,3,28000000.0,0.5477225575051662,2.29,1.147,2.63,Jordan | Argentina | Algeria
+Yaimar MEDINA,Ecuador,1,4000000.0,3.1304951684997055,1.98,0.953,1.89,Ivory Coast | Germany | Curaçao
+Yan Valery,Tunisia,1,2000000.0,1.4832396974191324,2.21,1.27,2.81,Sweden | Japan | Netherlands
+Yasin AYARI,Sweden,3,30000000.0,1.732050807568877,1.95,1.22,2.38,Tunisia | Netherlands | Japan
+Yassin FORTUNE,Haiti,0,400000.0,1.51657508881031,2.43,0.937,2.28,Scotland | Morocco | Brazil
+Yassine BOUNOU,Morocco,2,9000000.0,3.033150177620621,3.45,0.983,3.39,Scotland | Brazil | Haiti
+Yassine TITRAOUI,Algeria,3,5000000.0,0.4472135954999588,2.29,0.877,2.01,Argentina | Jordan | Austria
+Yehvann DIOUF,Senegal,2,8000000.0,2.3874672772626644,2.81,1.003,2.82,France | Norway | Iraq
+Yeremy PINO,Spain,0,30000000.0,0.4472135954999579,2.4,0.793,1.9,Uruguay | Cape Verde | Saudi Arabia
+Yerry MINA,Colombia,1,3000000.0,4.024922359499622,3.03,1.223,3.71,Uzbekistan | DR Congo | Portugal
+Youri TIELEMANS,Belgium,3,35000000.0,2.23606797749979,2.67,1.267,3.38,Egypt | Iran | New Zealand
+Yuito SUZUKI,Japan,0,15000000.0,4.604345773288535,3.81,1.177,4.48,Netherlands | Tunisia | Sweden
+Yukinari Sugawara,Japan,1,7500000.0,2.701851217221261,2.67,1.177,3.14,Netherlands | Tunisia | Sweden
+Yuto NAGATOMO,Japan,1,300000.0,1.3038404810405233,1.9,1.177,2.24,Netherlands | Tunisia | Sweden
+Yvon MVOGO,Switzerland,2,3000000.0,3.492849839314596,2.82,0.737,2.08,Qatar | Bosnia and Herzegovina | Canada
+ZIDANE IQBAL,Iraq,3,3000000.0,0.4472135954999578,1.91,0.923,1.76,Norway | Senegal | France
+ZIZO,Egypt,0,5000000.0,0.8366600265340756,2.55,1.11,2.83,New Zealand | Iran | Belgium
+Zakaria EL OUAHDI,Morocco,1,4500000.0,7.231873892705818,4.12,0.983,4.05,Scotland | Brazil | Haiti
+Zeki AMDOUNI,Switzerland,0,9000000.0,2.6832815729997477,2.3,0.737,1.69,Qatar | Bosnia and Herzegovina | Canada
+Zeno DEBAST,Belgium,1,30000000.0,2.4899799195977463,3.15,1.267,3.99,Egypt | Iran | New Zealand
+Zineddine BELAID,Algeria,1,1200000.0,3.5777087639996634,2.69,0.877,2.36,Argentina | Jordan | Austria
+Zion Suzuki,Japan,2,20000000.0,3.361547262794321,2.95,1.177,3.47,Netherlands | Tunisia | Sweden

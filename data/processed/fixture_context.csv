@@ -1,0 +1,145 @@
+team,opponent,team_elo,opp_elo,win_probability,strength_diff
+Czechia,South Korea,1740,1758,0.47,-18
+Mexico,South Africa,1875,1528,0.93,347
+Canada,Bosnia and Herzegovina,1788,1595,0.84,193
+United States,Paraguay,1726,1833,0.49,-107
+Australia,Turkey,1777,1911,0.32,-134
+Brazil,Morocco,1991,1827,0.72,164
+Haiti,Scotland,1548,1782,0.21,-234
+Qatar,Switzerland,1421,1891,0.06,-470
+Curaçao,Germany,1434,1932,0.05,-498
+Ecuador,Ivory Coast,1938,1695,0.8,243
+Japan,Netherlands,1906,1944,0.45,-38
+Sweden,Tunisia,1712,1628,0.62,84
+Belgium,Egypt,1893,1696,0.76,197
+Cape Verde,Spain,1578,2155,0.03,-577
+Iran,New Zealand,1772,1562,0.77,210
+Saudi Arabia,Uruguay,1569,1892,0.13,-323
+Algeria,Argentina,1760,2114,0.12,-354
+Austria,Jordan,1830,1680,0.7,150
+France,Senegal,2062,1867,0.75,195
+Iraq,Norway,1618,1914,0.15,-296
+Colombia,Uzbekistan,1982,1718,0.82,264
+Croatia,England,1911,2021,0.35,-110
+DR Congo,Portugal,1661,1986,0.13,-325
+Ghana,Panama,1510,1730,0.22,-220
+Bosnia and Herzegovina,Switzerland,1595,1891,0.15,-296
+Canada,Qatar,1788,1421,0.94,367
+Czechia,South Africa,1740,1528,0.77,212
+Mexico,South Korea,1875,1758,0.78,117
+Brazil,Haiti,1991,1548,0.93,443
+Morocco,Scotland,1827,1782,0.56,45
+Paraguay,Turkey,1833,1911,0.39,-78
+United States,Australia,1726,1777,0.57,-51
+Curaçao,Ecuador,1434,1938,0.05,-504
+Germany,Ivory Coast,1932,1695,0.8,237
+Japan,Tunisia,1906,1628,0.83,278
+Netherlands,Sweden,1944,1712,0.79,232
+Belgium,Iran,1893,1772,0.67,121
+Cape Verde,Uruguay,1578,1892,0.14,-314
+Egypt,New Zealand,1696,1562,0.68,134
+Saudi Arabia,Spain,1569,2155,0.03,-586
+Algeria,Jordan,1760,1680,0.61,80
+Argentina,Austria,2114,1830,0.84,284
+France,Iraq,2062,1618,0.93,444
+Norway,Senegal,1914,1867,0.57,47
+Colombia,DR Congo,1982,1661,0.86,321
+Croatia,Panama,1911,1730,0.74,181
+England,Ghana,2021,1510,0.95,511
+Portugal,Uzbekistan,1986,1718,0.82,268
+Bosnia and Herzegovina,Qatar,1595,1421,0.73,174
+Brazil,Scotland,1991,1782,0.77,209
+Canada,Switzerland,1788,1891,0.5,-103
+Haiti,Morocco,1548,1827,0.17,-279
+Mexico,Czechia,1875,1740,0.79,135
+South Africa,South Korea,1528,1758,0.21,-230
+Australia,Paraguay,1777,1833,0.42,-56
+Curaçao,Ivory Coast,1434,1695,0.18,-261
+Ecuador,Germany,1938,1932,0.51,6
+Japan,Sweden,1906,1712,0.75,194
+Netherlands,Tunisia,1944,1628,0.86,316
+United States,Turkey,1726,1911,0.38,-185
+Belgium,New Zealand,1893,1562,0.87,331
+Cape Verde,Saudi Arabia,1578,1569,0.51,9
+Egypt,Iran,1696,1772,0.39,-76
+France,Norway,2062,1914,0.7,148
+Iraq,Senegal,1618,1867,0.19,-249
+Spain,Uruguay,2155,1892,0.82,263
+Algeria,Austria,1760,1830,0.4,-70
+Argentina,Jordan,2114,1680,0.92,434
+Colombia,Portugal,1982,1986,0.49,-4
+Croatia,Ghana,1911,1510,0.91,401
+DR Congo,Uzbekistan,1661,1718,0.42,-57
+England,Panama,2021,1730,0.84,291
+South Korea,Czechia,1758,1740,0.47,18
+South Africa,Mexico,1528,1875,0.9299999999999999,-347
+Bosnia and Herzegovina,Canada,1595,1788,0.84,-193
+Paraguay,United States,1833,1726,0.49,107
+Turkey,Australia,1911,1777,0.31999999999999995,134
+Morocco,Brazil,1827,1991,0.72,-164
+Scotland,Haiti,1782,1548,0.20999999999999996,234
+Switzerland,Qatar,1891,1421,0.06000000000000005,470
+Germany,Curaçao,1932,1434,0.050000000000000044,498
+Ivory Coast,Ecuador,1695,1938,0.8,-243
+Netherlands,Japan,1944,1906,0.44999999999999996,38
+Tunisia,Sweden,1628,1712,0.62,-84
+Egypt,Belgium,1696,1893,0.76,-197
+Spain,Cape Verde,2155,1578,0.030000000000000027,577
+New Zealand,Iran,1562,1772,0.77,-210
+Uruguay,Saudi Arabia,1892,1569,0.13,323
+Argentina,Algeria,2114,1760,0.12,354
+Jordan,Austria,1680,1830,0.7,-150
+Senegal,France,1867,2062,0.75,-195
+Norway,Iraq,1914,1618,0.15000000000000002,296
+Uzbekistan,Colombia,1718,1982,0.8200000000000001,-264
+England,Croatia,2021,1911,0.35,110
+Portugal,DR Congo,1986,1661,0.13,325
+Panama,Ghana,1730,1510,0.21999999999999997,220
+Switzerland,Bosnia and Herzegovina,1891,1595,0.15000000000000002,296
+Qatar,Canada,1421,1788,0.94,-367
+South Africa,Czechia,1528,1740,0.77,-212
+South Korea,Mexico,1758,1875,0.78,-117
+Haiti,Brazil,1548,1991,0.9299999999999999,-443
+Scotland,Morocco,1782,1827,0.56,-45
+Turkey,Paraguay,1911,1833,0.39,78
+Australia,United States,1777,1726,0.5700000000000001,51
+Ecuador,Curaçao,1938,1434,0.050000000000000044,504
+Ivory Coast,Germany,1695,1932,0.8,-237
+Tunisia,Japan,1628,1906,0.83,-278
+Sweden,Netherlands,1712,1944,0.79,-232
+Iran,Belgium,1772,1893,0.6699999999999999,-121
+Uruguay,Cape Verde,1892,1578,0.14,314
+New Zealand,Egypt,1562,1696,0.6799999999999999,-134
+Spain,Saudi Arabia,2155,1569,0.030000000000000027,586
+Jordan,Algeria,1680,1760,0.61,-80
+Austria,Argentina,1830,2114,0.84,-284
+Iraq,France,1618,2062,0.9299999999999999,-444
+Senegal,Norway,1867,1914,0.5700000000000001,-47
+DR Congo,Colombia,1661,1982,0.86,-321
+Panama,Croatia,1730,1911,0.74,-181
+Ghana,England,1510,2021,0.95,-511
+Uzbekistan,Portugal,1718,1986,0.8200000000000001,-268
+Qatar,Bosnia and Herzegovina,1421,1595,0.73,-174
+Scotland,Brazil,1782,1991,0.77,-209
+Switzerland,Canada,1891,1788,0.5,103
+Morocco,Haiti,1827,1548,0.17000000000000004,279
+Czechia,Mexico,1740,1875,0.79,-135
+South Korea,South Africa,1758,1528,0.20999999999999996,230
+Paraguay,Australia,1833,1777,0.42000000000000004,56
+Ivory Coast,Curaçao,1695,1434,0.18000000000000005,261
+Germany,Ecuador,1932,1938,0.51,-6
+Sweden,Japan,1712,1906,0.75,-194
+Tunisia,Netherlands,1628,1944,0.86,-316
+Turkey,United States,1911,1726,0.38,185
+New Zealand,Belgium,1562,1893,0.87,-331
+Saudi Arabia,Cape Verde,1569,1578,0.51,-9
+Iran,Egypt,1772,1696,0.39,76
+Norway,France,1914,2062,0.7,-148
+Senegal,Iraq,1867,1618,0.18999999999999995,249
+Uruguay,Spain,1892,2155,0.8200000000000001,-263
+Austria,Algeria,1830,1760,0.4,70
+Jordan,Argentina,1680,2114,0.92,-434
+Portugal,Colombia,1986,1982,0.49,4
+Ghana,Croatia,1510,1911,0.91,-401
+Uzbekistan,DR Congo,1718,1661,0.42000000000000004,57
+Panama,England,1730,2021,0.84,-291

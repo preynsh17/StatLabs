@@ -1,0 +1,88 @@
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual environment ───────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── macOS ─────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Logs and temp files ───────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ── Browser binaries (Playwright) ────────────────────────────────
+.playwright-browsers/
+
+# ── Large raw data (>50 MB) — use DVC or provide download script ──
+data/raw/transfermarkt/appearances.csv
+data/raw/transfermarkt/game_lineups.csv
+data/raw/transfermarkt/game_events.csv
+data/raw/transfermarkt/games.csv
+data/raw/transfermarkt/players.csv
+data/raw/transfermarkt/player_valuations.csv
+data/raw/transfermarkt/club_games.csv
+data/raw/transfermarkt/transfers.csv
+data/raw/understat/understat.db
+
+# ── Large processed / intermediate files (regenerable) ────────────
+data/processed/player_match_stats.csv
+data/processed/player_match_stats_advanced.csv
+data/processed/player_match_stats_clean.csv
+data/processed/model_dataset.csv
+data/processed/model_dataset_final.csv
+data/processed/model_dataset_final_v2.csv
+data/processed/train.csv
+data/processed/val.csv
+data/processed/test.csv
+data/processed/player_features_v1.csv
+
+# ── Intermediate pipeline artifacts ───────────────────────────────
+data/processed/world_cup_predictions_929.csv
+data/processed/squad_to_tm_mapping.csv
+data/processed/tm_understat_mapping.csv
+data/processed/matching_audit.csv
+data/processed/test_predictions.csv
+
+# ── Internal working docs (not for repo) ──────────────────────────
+repo_audit_report.md
+final_cleanup_report.md
+frontend/AGENTS.md
+frontend/CLAUDE.md
+archive/
+
+# ── Claude Code internal files ────────────────────────────────────
+.claude/
+
+# ── Node / frontend ───────────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# ── IDE / editor ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.code-workspace
+
+# ── OS generated ──────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini

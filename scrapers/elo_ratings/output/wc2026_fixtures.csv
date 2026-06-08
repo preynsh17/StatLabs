@@ -1,0 +1,73 @@
+date,home_team,home_winning_expectancy,home_current_rank,home_rating,away_team,away_winning_expectancy,away_current_rank,away_rating
+jun 11,Czechia,47%,35,1740,South Korea,53%,33,1758
+jun 11,Mexico,93%,18,1875,South Africa,7%,77,1528
+jun 12,Canada,84%,25,1788,Bosnia and Herzegovina,16%,65,1595
+jun 12,United States,49%,38,1726,Paraguay,51%,22,1833
+jun 13,Australia,32%,28,1777,Turkey,68%,12,1911
+jun 13,Brazil,72%,5,1991,Morocco,28%,24,1827
+jun 13,Haiti,21%,73,1548,Scotland,79%,26,1782
+jun 13,Qatar,6%,97,1421,Switzerland,94%,17,1891
+jun 14,Curaçao,5%,91,1434,Germany,95%,10,1932
+jun 14,Ecuador,80%,9,1938,Ivory Coast,20%,49,1695
+jun 14,Japan,45%,14,1906,Netherlands,55%,8,1944
+jun 14,Sweden,62%,42,1712,Tunisia,38%,59,1628
+jun 15,Belgium,76%,15,1893,Egypt,24%,48,1696
+jun 15,Cape Verde,3%,68,1578,Spain,97%,1,2155
+jun 15,Iran,77%,29,1772,New Zealand,23%,72,1562
+jun 15,Saudi Arabia,13%,70,1569,Uruguay,87%,16,1892
+jun 16,Algeria,12%,32,1760,Argentina,88%,2,2114
+jun 16,Austria,70%,23,1830,Jordan,30%,52,1680
+jun 16,France,75%,3,2062,Senegal,25%,21,1867
+jun 16,Iraq,15%,60,1618,Norway,85%,11,1914
+jun 17,Colombia,82%,7,1982,Uzbekistan,18%,40,1718
+jun 17,Croatia,35%,12,1911,England,65%,4,2021
+jun 17,DR Congo,13%,54,1661,Portugal,87%,6,1986
+jun 17,Ghana,22%,81,1510,Panama,78%,37,1730
+jun 18,Bosnia and Herzegovina,15%,65,1595,Switzerland,85%,17,1891
+jun 18,Canada,94%,25,1788,Qatar,6%,97,1421
+jun 18,Czechia,77%,35,1740,South Africa,23%,77,1528
+jun 18,Mexico,78%,18,1875,South Korea,22%,33,1758
+jun 19,Brazil,93%,5,1991,Haiti,7%,73,1548
+jun 19,Morocco,56%,24,1827,Scotland,44%,26,1782
+jun 19,Paraguay,39%,22,1833,Turkey,61%,12,1911
+jun 19,United States,57%,38,1726,Australia,43%,28,1777
+jun 20,Curaçao,5%,91,1434,Ecuador,95%,9,1938
+jun 20,Germany,80%,10,1932,Ivory Coast,20%,49,1695
+jun 20,Japan,83%,14,1906,Tunisia,17%,59,1628
+jun 20,Netherlands,79%,8,1944,Sweden,21%,42,1712
+jun 21,Belgium,67%,15,1893,Iran,33%,29,1772
+jun 21,Cape Verde,14%,68,1578,Uruguay,86%,16,1892
+jun 21,Egypt,68%,48,1696,New Zealand,32%,72,1562
+jun 21,Saudi Arabia,3%,70,1569,Spain,97%,1,2155
+jun 22,Algeria,61%,32,1760,Jordan,39%,52,1680
+jun 22,Argentina,84%,2,2114,Austria,16%,23,1830
+jun 22,France,93%,3,2062,Iraq,7%,60,1618
+jun 22,Norway,57%,11,1914,Senegal,43%,21,1867
+jun 23,Colombia,86%,7,1982,DR Congo,14%,54,1661
+jun 23,Croatia,74%,12,1911,Panama,26%,37,1730
+jun 23,England,95%,4,2021,Ghana,5%,81,1510
+jun 23,Portugal,82%,6,1986,Uzbekistan,18%,40,1718
+jun 24,Bosnia and Herzegovina,73%,65,1595,Qatar,27%,97,1421
+jun 24,Brazil,77%,5,1991,Scotland,23%,26,1782
+jun 24,Canada,50%,25,1788,Switzerland,50%,17,1891
+jun 24,Haiti,17%,73,1548,Morocco,83%,24,1827
+jun 24,Mexico,79%,18,1875,Czechia,21%,35,1740
+jun 24,South Africa,21%,77,1528,South Korea,79%,33,1758
+jun 25,Australia,42%,28,1777,Paraguay,58%,22,1833
+jun 25,Curaçao,18%,91,1434,Ivory Coast,82%,49,1695
+jun 25,Ecuador,51%,9,1938,Germany,49%,10,1932
+jun 25,Japan,75%,14,1906,Sweden,25%,42,1712
+jun 25,Netherlands,86%,8,1944,Tunisia,14%,59,1628
+jun 25,United States,38%,38,1726,Turkey,62%,12,1911
+jun 26,Belgium,87%,15,1893,New Zealand,13%,72,1562
+jun 26,Cape Verde,51%,68,1578,Saudi Arabia,49%,70,1569
+jun 26,Egypt,39%,48,1696,Iran,61%,29,1772
+jun 26,France,70%,3,2062,Norway,30%,11,1914
+jun 26,Iraq,19%,60,1618,Senegal,81%,21,1867
+jun 26,Spain,82%,1,2155,Uruguay,18%,16,1892
+jun 27,Algeria,40%,32,1760,Austria,60%,23,1830
+jun 27,Argentina,92%,2,2114,Jordan,8%,52,1680
+jun 27,Colombia,49%,7,1982,Portugal,51%,6,1986
+jun 27,Croatia,91%,12,1911,Ghana,9%,81,1510
+jun 27,DR Congo,42%,54,1661,Uzbekistan,58%,40,1718
+jun 27,England,84%,4,2021,Panama,16%,37,1730
