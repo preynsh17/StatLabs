@@ -32,12 +32,12 @@ export default async function Home() {
               <p className="text-[11px] text-muted-foreground leading-none mt-0.5 tracking-wide">Find the edge before kickoff</p>
             </div>
           </div>
-          <div className="flex items-center gap-2 text-xs text-muted-foreground">
-            <span
-              className={`h-1.5 w-1.5 rounded-full ${fetchError ? "bg-destructive" : "bg-primary animate-pulse"}`}
-            />
-            <span>{fetchError ? "API Offline" : `${players.length} players loaded`}</span>
-          </div>
+          {fetchError && (
+            <div className="flex items-center gap-2 text-xs text-muted-foreground">
+              <span className="h-1.5 w-1.5 rounded-full bg-destructive" />
+              <span>API Offline</span>
+            </div>
+          )}
         </div>
       </header>
 
