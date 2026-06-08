@@ -9,7 +9,10 @@ app = FastAPI(title="WC2026 Fantasy Optimizer API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://wc2026-fantasy-plum.vercel.app",
+        "http://localhost:3000",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
