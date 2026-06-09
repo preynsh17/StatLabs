@@ -12,7 +12,6 @@ app.add_middleware(
     allow_origins=[
         "https://statlabs-preynsh.vercel.app",
         "http://localhost:3000",
-        # HF Space URL added after deploy: https://USERNAME-statlabs-api.hf.space
     ],
     allow_methods=["*"],
     allow_headers=["*"],

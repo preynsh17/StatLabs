@@ -1,13 +1,3 @@
----
-title: StatLabs API
-emoji: ⚽
-colorFrom: green
-colorTo: blue
-sdk: docker
-pinned: false
-app_port: 7860
----
-
 # StatLabs
 
 AI powered fantasy intelligence for FIFA World Cup 2026. Get optimal squads, captain picks, and hidden gems — all from a live web app.
@@ -18,7 +8,7 @@ AI powered fantasy intelligence for FIFA World Cup 2026. Get optimal squads, cap
 
 Open the app and you get:
 
-- **Squad Builder** — generates an optimal 15-player squad within a $100M budget using three strategies: balanced (best projected points), high upside (boom or bust ceiling), and value (underpriced players who outperform their cost)
+- **Squad Builder** — generates an optimal 15-player squad within a €100M budget using three strategies: balanced (best projected points), high upside (boom or bust ceiling), and value (underpriced players who outperform their cost)
 - **Player Pool** — full list of 929 WC2026 players ranked by projected fantasy points, adjusted for fixture difficulty
 - **Gem Score** — flags players who rank significantly higher on output than on price, surfacing value picks the market has missed
 - **Captain Picks** — splits recommendations into safe captains (consistent performers) and aggressive captains (high ceiling, higher variance)
@@ -41,7 +31,7 @@ Fantasy points follow the official scoring system:
 
 ## Tech stack
 
-Python · FastAPI · XGBoost · PuLP · Next.js · Deployed on Hugging Face Spaces (API) and Vercel (frontend)
+Python · FastAPI · XGBoost · PuLP · Next.js · Deployed on Railway (API) and Vercel (frontend)
 
 ## Running locally
 
