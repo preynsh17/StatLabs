@@ -9,7 +9,7 @@ export async function fetchPlayers(): Promise<Player[]> {
 }
 
 export async function generateSquad(req: SquadRequest): Promise<SquadResponse> {
-  const res = await fetch(`${BASE_URL}/generate`, {
+  const res = await fetch(`/api/generate`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(req),
