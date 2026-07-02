@@ -1,39 +1,36 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Sparkles, Shield, Rocket, Gem, Loader2, AlertCircle, Layers } from "lucide-react";
+import { Sparkles, Shield, Rocket, Gem, Loader2, AlertCircle, Layers, Check } from "lucide-react";
 import { toast } from "sonner";
 import { AnchorSelect } from "./AnchorSelect";
 import { SquadPitch } from "./SquadPitch";
 import { generateSquad } from "@/lib/api";
+import { cn } from "@/lib/utils";
 import type { Player, SquadResponse, Strategy, SingleSquad } from "@/lib/types";
 
-const STRATEGIES: { id: Strategy; icon: React.ReactNode; label: string; desc: string; color: string }[] = [
+const STRATEGIES: { id: Strategy; icon: React.ReactNode; label: string; desc: string }[] = [
   {
     id: "meta",
     icon: <Shield className="h-4 w-4" />,
     label: "The Meta",
-    desc: "Highest Expected Points",
-    color: "border-blue-500/40 bg-blue-500/10 text-blue-400",
+    desc: "Highest expected points",
   },
   {
     id: "upside",
     icon: <Rocket className="h-4 w-4" />,
     label: "High Upside",
-    desc: "Tournament Winner Volatility",
-    color: "border-purple-500/40 bg-purple-500/10 text-purple-400",
+    desc: "Tournament-winner volatility",
   },
   {
     id: "value",
     icon: <Gem className="h-4 w-4" />,
     label: "Differential Value",
-    desc: "Points per Million + Gems",
-    color: "border-amber-500/40 bg-amber-500/10 text-amber-400",
+    desc: "Points per million + gems",
   },
 ];
 
@@ -43,14 +40,29 @@ interface SquadGeneratorProps {
   players: Player[];
 }
 
+function StepLabel({ step, label, aside }: { step: string; label: string; aside?: React.ReactNode }) {
+  return (
+    <div className="flex items-center justify-between">
+      <p className="flex items-center gap-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+        <span className="flex h-4.5 w-4.5 items-center justify-center rounded bg-secondary font-mono text-[10px] text-foreground/70">
+          {step}
+        </span>
+        {label}
+      </p>
+      {aside}
+    </div>
+  );
+}
+
 function PitchSkeleton() {
   return (
     <div className="space-y-4 animate-pulse">
-      <div className="flex gap-8">
-        <Skeleton className="h-12 w-28" />
-        <Skeleton className="h-12 w-28" />
+      <div className="flex gap-4">
+        <Skeleton className="h-16 w-32 rounded-xl" />
+        <Skeleton className="h-16 w-32 rounded-xl" />
+        <Skeleton className="h-16 w-32 rounded-xl" />
       </div>
-      <Skeleton className="h-72 w-full rounded-xl" />
+      <Skeleton className="h-80 w-full rounded-xl" />
       <div className="flex gap-2">
         {Array.from({ length: 4 }).map((_, i) => (
           <Skeleton key={i} className="h-20 w-24 rounded-lg" />
@@ -87,7 +99,7 @@ function MultiSquadDisplay({ squads }: { squads: SingleSquad[] }) {
           ))}
         </TabsList>
         <span className="text-xs text-muted-foreground ml-auto">
-          {squads.length} alternative{squads.length > 1 ? "s" : ""} generated
+          {squads.length} alternatives generated
         </span>
       </div>
       {squads.map((s, i) => (
@@ -130,89 +142,91 @@ export function SquadGenerator({ players }: SquadGeneratorProps) {
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-6 items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-[330px_1fr] gap-5 items-start">
       {/* Control Panel */}
-      <Card className="bg-card border-border lg:sticky lg:top-4">
-        <CardHeader className="pb-3">
-          <CardTitle className="flex items-center gap-2 text-base">
-            <Sparkles className="h-4 w-4 text-primary" />
-            Optimization Engine
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-5">
+      <Card className="bg-card border-border lg:sticky lg:top-20 py-5">
+        <CardContent className="space-y-6 px-5">
           {/* Strategy selector */}
-          <div className="space-y-2">
-            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-              Strategy
-            </p>
+          <div className="space-y-2.5">
+            <StepLabel step="1" label="Strategy" />
             <div className="space-y-2">
-              {STRATEGIES.map((s) => (
-                <button
-                  key={s.id}
-                  onClick={() => setStrategy(s.id)}
-                  className={`
-                    w-full flex items-center gap-3 rounded-lg border p-3 text-left transition-all
-                    ${
-                      strategy === s.id
-                        ? s.color + " shadow-sm"
-                        : "border-border bg-secondary/50 text-muted-foreground hover:bg-secondary"
-                    }
-                  `}
-                >
-                  <span className={strategy === s.id ? "" : "opacity-50"}>{s.icon}</span>
-                  <div className="min-w-0">
-                    <p className="text-sm font-semibold leading-none">{s.label}</p>
-                    <p className="text-xs mt-0.5 opacity-70">{s.desc}</p>
-                  </div>
-                  {strategy === s.id && (
-                    <div className="ml-auto h-2 w-2 rounded-full bg-current shrink-0" />
-                  )}
-                </button>
-              ))}
+              {STRATEGIES.map((s) => {
+                const active = strategy === s.id;
+                return (
+                  <button
+                    key={s.id}
+                    onClick={() => setStrategy(s.id)}
+                    className={cn(
+                      "w-full flex items-center gap-3 rounded-lg border p-3 text-left transition-all",
+                      active
+                        ? "border-primary/40 bg-primary/[0.07]"
+                        : "border-border bg-secondary/40 hover:bg-secondary/80"
+                    )}
+                  >
+                    <span
+                      className={cn(
+                        "flex h-8 w-8 shrink-0 items-center justify-center rounded-md transition-colors",
+                        active ? "bg-primary/15 text-primary" : "bg-secondary text-muted-foreground"
+                      )}
+                    >
+                      {s.icon}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <p className={cn("text-sm font-semibold leading-none", !active && "text-foreground/80")}>
+                        {s.label}
+                      </p>
+                      <p className="text-xs mt-1 text-muted-foreground leading-none">{s.desc}</p>
+                    </div>
+                    <span
+                      className={cn(
+                        "flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full border transition-all",
+                        active
+                          ? "border-primary bg-primary text-primary-foreground"
+                          : "border-border bg-transparent"
+                      )}
+                    >
+                      {active && <Check className="h-3 w-3" />}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </div>
 
-          <Separator className="bg-border/50" />
-
           {/* Anchor selector */}
-          <div className="space-y-2">
-            <div className="flex items-center justify-between">
-              <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                Must Have Anchors
-              </p>
-              <span className="text-xs text-muted-foreground font-mono">
-                {anchors.length}/11
-              </span>
-            </div>
+          <div className="space-y-2.5">
+            <StepLabel
+              step="2"
+              label="Must-Have Anchors"
+              aside={
+                <span className="text-[11px] text-muted-foreground font-mono">
+                  {anchors.length}/11
+                </span>
+              }
+            />
             <AnchorSelect players={players} selected={anchors} onChange={setAnchors} max={11} />
           </div>
 
-          <Separator className="bg-border/50" />
-
           {/* Squad count */}
-          <div className="space-y-2">
-            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-              Alternative Squads
-            </p>
+          <div className="space-y-2.5">
+            <StepLabel step="3" label="Alternative Squads" />
             <div className="flex gap-1.5">
               {SQUAD_COUNT_OPTIONS.map((n) => (
                 <button
                   key={n}
                   onClick={() => setNSquads(n)}
-                  className={`
-                    flex-1 rounded-md border py-1.5 text-sm font-semibold transition-all
-                    ${
-                      nSquads === n
-                        ? "border-primary/40 bg-primary/10 text-primary"
-                        : "border-border bg-secondary/50 text-muted-foreground hover:bg-secondary"
-                    }
-                  `}
+                  className={cn(
+                    "flex-1 rounded-md border py-1.5 text-sm font-semibold transition-all",
+                    nSquads === n
+                      ? "border-primary/40 bg-primary/10 text-primary"
+                      : "border-border bg-secondary/40 text-muted-foreground hover:bg-secondary"
+                  )}
                 >
                   {n === 1 ? "1" : `×${n}`}
                 </button>
               ))}
             </div>
-            <p className="text-xs text-muted-foreground">
+            <p className="text-[11px] text-muted-foreground">
               {nSquads === 1
                 ? "Single optimal squad"
                 : `${nSquads} diverse squads — each differs by 4+ players`}
@@ -222,7 +236,7 @@ export function SquadGenerator({ players }: SquadGeneratorProps) {
           <Button
             onClick={handleGenerate}
             disabled={loading}
-            className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold h-10 transition-all"
+            className="w-full h-10 font-semibold bg-gradient-to-b from-primary to-primary/85 text-primary-foreground hover:from-primary/95 hover:to-primary/80 shadow-lg shadow-primary/20 transition-all"
           >
             {loading ? (
               <>
@@ -247,22 +261,29 @@ export function SquadGenerator({ players }: SquadGeneratorProps) {
       </Card>
 
       {/* Output */}
-      <Card className="bg-card border-border">
-        <CardContent className="pt-6">
+      <Card className="bg-card border-border py-5">
+        <CardContent className="px-5">
           {loading && <PitchSkeleton />}
           {!loading && !result && (
-            <div className="flex flex-col items-center justify-center py-20 text-center text-muted-foreground gap-3">
-              <div className="p-4 rounded-full bg-primary/10">
-                <Sparkles className="h-8 w-8 text-primary/60" />
+            <div className="flex flex-col items-center justify-center rounded-xl border border-dashed border-border py-24 text-center text-muted-foreground gap-3 m-1">
+              <div className="p-4 rounded-2xl bg-primary/10">
+                <Sparkles className="h-7 w-7 text-primary/70" />
               </div>
-              <p className="text-sm font-semibold">No squad generated yet</p>
-              <p className="text-xs max-w-xs">
-                Select a strategy, optionally lock in anchor players, then hit Optimise to run the solver.
+              <p className="text-sm font-semibold text-foreground">No squad generated yet</p>
+              <p className="text-xs max-w-xs leading-relaxed">
+                Select a strategy, optionally lock in anchor players, then hit Optimise to run the
+                ILP solver against the full player pool.
               </p>
             </div>
           )}
           {!loading && result && (
-            <MultiSquadDisplay squads={result.squads ?? [{ squad: result.squad, total_cost: result.total_cost, total_points: result.total_points }]} />
+            <MultiSquadDisplay
+              squads={
+                result.squads ?? [
+                  { squad: result.squad, total_cost: result.total_cost, total_points: result.total_points },
+                ]
+              }
+            />
           )}
         </CardContent>
       </Card>

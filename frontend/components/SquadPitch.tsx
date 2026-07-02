@@ -1,69 +1,44 @@
 "use client";
 
 import { useMemo } from "react";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import type { Player } from "@/lib/types";
 import { POSITION_MAP } from "@/lib/types";
+import { POSITION_TEXT, POSITION_DOT } from "@/lib/positions";
 import { formatName } from "@/lib/format";
-
-const POSITION_COLORS: Record<number, string> = {
-  0: "border-orange-500/40 bg-orange-500/10",
-  1: "border-emerald-500/40 bg-emerald-500/10",
-  2: "border-yellow-500/40 bg-yellow-500/10",
-  3: "border-blue-500/40 bg-blue-500/10",
-};
-
-const POSITION_BADGE: Record<number, string> = {
-  0: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  1: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-  2: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  3: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-};
+import { cn } from "@/lib/utils";
 
 function PlayerCard({ player, isBench = false }: { player: Player; isBench?: boolean }) {
   return (
     <div
-      className={`
-        flex flex-col items-center gap-1 rounded-lg border p-2 transition-all
-        ${POSITION_COLORS[player.position]}
-        ${isBench ? "opacity-60 scale-95" : ""}
-        min-w-[80px] max-w-[100px] w-full
-      `}
+      className={cn(
+        "flex flex-col items-center gap-1 rounded-lg border border-border/80 bg-card/90 backdrop-blur-sm px-2 py-2 shadow-sm",
+        "min-w-[84px] max-w-[104px] w-full transition-colors hover:border-border",
+        isBench && "opacity-70 bg-secondary/60"
+      )}
     >
-      <Badge variant="outline" className={`text-[10px] px-1.5 py-0 ${POSITION_BADGE[player.position]}`}>
+      <span className={cn("flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest", POSITION_TEXT[player.position])}>
+        <span className={cn("h-1 w-1 rounded-full", POSITION_DOT[player.position])} />
         {POSITION_MAP[player.position]}
-      </Badge>
-      <p className="text-[11px] font-semibold text-center leading-tight line-clamp-2">{formatName(player.player)}</p>
-      <div className="flex items-center gap-1 text-[10px]">
-        <span className="text-primary font-mono font-bold">{player.adjusted_projection.toFixed(1)}</span>
+      </span>
+      <p className="text-[11px] font-semibold text-center leading-tight line-clamp-2">
+        {formatName(player.player)}
+      </p>
+      <div className="flex items-center gap-1 text-[10px] font-mono tabular-nums">
+        <span className="font-bold">{player.adjusted_projection.toFixed(1)}</span>
         <span className="text-muted-foreground">·</span>
-        <span className="text-muted-foreground font-mono">${player.price.toFixed(1)}</span>
+        <span className="text-muted-foreground">${player.price.toFixed(1)}</span>
       </div>
     </div>
   );
 }
 
-function PitchRow({
-  players,
-  label,
-  isBench = false,
-}: {
-  players: Player[];
-  label: string;
-  isBench?: boolean;
-}) {
+function PitchRow({ players }: { players: Player[] }) {
   if (players.length === 0) return null;
   return (
-    <div className="flex flex-col items-center gap-1.5">
-      <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-widest">
-        {label}
-      </span>
-      <div className="flex justify-center gap-2 flex-wrap">
-        {players.map((p) => (
-          <PlayerCard key={`${p.player}-${p.country}`} player={p} isBench={isBench} />
-        ))}
-      </div>
+    <div className="flex justify-center gap-2 sm:gap-3 flex-wrap">
+      {players.map((p) => (
+        <PlayerCard key={`${p.player}-${p.country}`} player={p} />
+      ))}
     </div>
   );
 }
@@ -91,6 +66,32 @@ function splitSquad(squad: Player[]) {
   };
 }
 
+/** White hairline pitch markings, drawn once as absolutely-positioned chrome. */
+function PitchMarkings() {
+  const line = "border-white/[0.08]";
+  return (
+    <div className="absolute inset-3 pointer-events-none" aria-hidden>
+      {/* Touchline */}
+      <div className={cn("absolute inset-0 rounded-sm border", line)} />
+      {/* Halfway line */}
+      <div className={cn("absolute inset-x-0 top-1/2 border-t", line)} />
+      {/* Centre circle */}
+      <div
+        className={cn(
+          "absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full border",
+          line
+        )}
+      />
+      {/* Penalty boxes */}
+      <div className={cn("absolute left-1/2 top-0 h-14 w-44 -translate-x-1/2 border-x border-b rounded-b-sm", line)} />
+      <div className={cn("absolute left-1/2 bottom-0 h-14 w-44 -translate-x-1/2 border-x border-t rounded-t-sm", line)} />
+      {/* Six-yard boxes */}
+      <div className={cn("absolute left-1/2 top-0 h-6 w-20 -translate-x-1/2 border-x border-b", line)} />
+      <div className={cn("absolute left-1/2 bottom-0 h-6 w-20 -translate-x-1/2 border-x border-t", line)} />
+    </div>
+  );
+}
+
 interface SquadPitchProps {
   squad: Player[];
   totalCost: number;
@@ -103,57 +104,67 @@ export function SquadPitch({ squad, totalCost, totalPoints }: SquadPitchProps) {
     [squad]
   );
 
-  const costColor =
-    totalCost > 99 ? "text-amber-400" : totalCost > 97 ? "text-emerald-400" : "text-emerald-400";
+  const budgetPct = Math.min(100, (totalCost / 100) * 100);
+  const remaining = 100 - totalCost;
 
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-6">
-          <div className="text-center">
-            <p className="text-xs text-muted-foreground mb-0.5">Total Cost</p>
-            <p className={`text-2xl font-bold font-mono ${costColor}`}>
-              ${totalCost.toFixed(1)}
-              <span className="text-sm text-muted-foreground font-normal"> / 100.0</span>
-            </p>
-          </div>
-          <div className="text-center">
-            <p className="text-xs text-muted-foreground mb-0.5">Proj. Points</p>
-            <p className="text-2xl font-bold font-mono text-primary">{totalPoints.toFixed(1)}</p>
+    <div className="space-y-5">
+      {/* Summary tiles */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="rounded-xl border border-primary/25 bg-primary/[0.07] p-4">
+          <p className="text-xs text-muted-foreground">Projected points</p>
+          <p className="text-2xl font-bold text-primary mt-1 leading-none">
+            {totalPoints.toFixed(1)}
+          </p>
+        </div>
+        <div className="rounded-xl border border-border bg-secondary/40 p-4">
+          <p className="text-xs text-muted-foreground">Total cost</p>
+          <p className="text-2xl font-bold mt-1 leading-none">
+            ${totalCost.toFixed(1)}
+            <span className="text-sm text-muted-foreground font-normal"> / 100</span>
+          </p>
+          <div className="relative mt-2.5 h-1.5 rounded-full bg-primary/15 overflow-hidden">
+            <div
+              className="absolute inset-y-0 left-0 rounded-full bg-primary transition-all"
+              style={{ width: `${budgetPct}%` }}
+            />
           </div>
         </div>
-        <div className="text-xs text-muted-foreground">
-          Remaining: <span className="font-mono text-foreground">${(100 - totalCost).toFixed(1)}</span>
+        <div className="rounded-xl border border-border bg-secondary/40 p-4 col-span-2 sm:col-span-1">
+          <p className="text-xs text-muted-foreground">Budget remaining</p>
+          <p className="text-2xl font-bold mt-1 leading-none">${remaining.toFixed(1)}</p>
         </div>
       </div>
 
       {/* Pitch */}
-      <div className="relative rounded-xl overflow-hidden border border-border">
-        {/* Grass background */}
+      <div
+        className="relative rounded-xl overflow-hidden border border-border"
+        style={{
+          background: "linear-gradient(180deg, oklch(0.17 0.035 155), oklch(0.14 0.03 155))",
+        }}
+      >
+        {/* Mowing stripes */}
         <div
-          className="absolute inset-0 opacity-[0.03]"
+          className="absolute inset-0 pointer-events-none"
           style={{
             backgroundImage:
-              "repeating-linear-gradient(180deg, transparent, transparent 40px, oklch(0.65 0.18 160) 40px, oklch(0.65 0.18 160) 42px)",
+              "repeating-linear-gradient(180deg, oklch(1 0 0 / 0.02) 0 48px, transparent 48px 96px)",
           }}
         />
-        <div className="relative py-6 px-4 space-y-5">
-          <PitchRow players={startingFWD} label="Forwards" />
-          <PitchRow players={startingMID} label="Midfielders" />
-          <PitchRow players={startingDEF} label="Defenders" />
-          <PitchRow players={startingGK} label="Goalkeeper" />
-        </div>
-        {/* Centre circle hint */}
-        <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-center pointer-events-none opacity-5">
-          <div className="w-24 h-24 rounded-full border-2 border-primary" />
+        <PitchMarkings />
+        <div className="relative py-8 px-4 flex flex-col gap-7">
+          <PitchRow players={startingFWD} />
+          <PitchRow players={startingMID} />
+          <PitchRow players={startingDEF} />
+          <PitchRow players={startingGK} />
         </div>
       </div>
 
-      <Separator className="bg-border/50" />
-
       {/* Bench */}
-      <div>
-        <p className="text-xs font-mono text-muted-foreground uppercase tracking-widest mb-3">Bench</p>
+      <div className="rounded-xl border border-border bg-secondary/30 p-4">
+        <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-widest mb-3">
+          Bench
+        </p>
         <div className="flex gap-2 flex-wrap">
           {bench.map((p) => (
             <PlayerCard key={`${p.player}-${p.country}`} player={p} isBench />

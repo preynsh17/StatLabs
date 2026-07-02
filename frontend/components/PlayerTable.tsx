@@ -11,34 +11,61 @@ import {
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { ArrowUpDown, ArrowUp, ArrowDown, Search, Sparkles } from "lucide-react";
+import { ArrowUpDown, ArrowUp, ArrowDown, Search } from "lucide-react";
 import type { Player } from "@/lib/types";
 import { POSITION_MAP } from "@/lib/types";
+import { POSITION_BADGE } from "@/lib/positions";
 import { PlayerExplainSheet } from "./PlayerExplainSheet";
 import { formatName } from "@/lib/format";
+import { cn } from "@/lib/utils";
 
 type SortKey = "price" | "adjusted_projection" | "gem_score_adj" | "std_fp_last_5";
 type SortDir = "asc" | "desc";
 
-const POSITION_COLORS: Record<number, string> = {
-  0: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  1: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-  2: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  3: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-};
+const POSITION_FILTERS: { value: string; label: string }[] = [
+  { value: "all", label: "All" },
+  { value: "0", label: "FWD" },
+  { value: "1", label: "MID" },
+  { value: "3", label: "DEF" },
+  { value: "2", label: "GK" },
+];
 
 function SortIcon({ col, sortKey, sortDir }: { col: SortKey; sortKey: SortKey; sortDir: SortDir }) {
   if (col !== sortKey) return <ArrowUpDown className="h-3 w-3 opacity-40" />;
   return sortDir === "asc"
     ? <ArrowUp className="h-3 w-3 text-primary" />
     : <ArrowDown className="h-3 w-3 text-primary" />;
+}
+
+function SortableHead({
+  col,
+  label,
+  sortKey,
+  sortDir,
+  onSort,
+}: {
+  col: SortKey;
+  label: string;
+  sortKey: SortKey;
+  sortDir: SortDir;
+  onSort: (key: SortKey) => void;
+}) {
+  return (
+    <TableHead
+      className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground cursor-pointer select-none text-right"
+      onClick={() => onSort(col)}
+    >
+      <div className="flex items-center justify-end gap-1">
+        {label} <SortIcon col={col} sortKey={sortKey} sortDir={sortDir} />
+      </div>
+    </TableHead>
+  );
+}
+
+function gemTier(score: number): string {
+  if (score > 3) return "bg-violet-400";
+  if (score > 1) return "bg-amber-400";
+  return "bg-muted-foreground/40";
 }
 
 interface PlayerTableProps {
@@ -85,79 +112,60 @@ export function PlayerTable({ players }: PlayerTableProps) {
 
   return (
     <div className="space-y-3">
-      <div className="flex flex-col sm:flex-row gap-2">
-        <div className="relative flex-1">
+      {/* Toolbar */}
+      <div className="flex flex-col sm:flex-row sm:items-center gap-2.5">
+        <div className="relative flex-1 max-w-sm">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
           <Input
             placeholder="Search player or country..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="pl-9 bg-secondary border-border"
+            className="pl-9 h-9 bg-secondary/70 border-border rounded-lg"
           />
         </div>
-        <Select value={posFilter} onValueChange={(v) => setPosFilter(v ?? "all")}>
-          <SelectTrigger className="w-full sm:w-44 bg-secondary border-border">
-            <SelectValue placeholder="All Positions" />
-          </SelectTrigger>
-          <SelectContent className="bg-popover border-border">
-            <SelectItem value="all">All Positions</SelectItem>
-            <SelectItem value="0">Forwards (FWD)</SelectItem>
-            <SelectItem value="1">Midfielders (MID)</SelectItem>
-            <SelectItem value="3">Defenders (DEF)</SelectItem>
-            <SelectItem value="2">Goalkeepers (GK)</SelectItem>
-          </SelectContent>
-        </Select>
-        <div className="text-sm text-muted-foreground self-center shrink-0 tabular-nums">
-          {filtered.length} players
+        <div className="flex items-center gap-1 rounded-lg border border-border bg-secondary/70 p-1">
+          {POSITION_FILTERS.map((f) => (
+            <button
+              key={f.value}
+              onClick={() => setPosFilter(f.value)}
+              className={cn(
+                "rounded-md px-3 py-1 text-xs font-medium transition-colors",
+                posFilter === f.value
+                  ? "bg-card text-foreground shadow-sm"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              {f.label}
+            </button>
+          ))}
         </div>
+        <span className="text-xs text-muted-foreground tabular-nums sm:ml-auto">
+          {filtered.length} of {players.length} players
+        </span>
       </div>
 
-      <p className="text-xs text-muted-foreground flex items-center gap-1.5">
-        <Sparkles className="h-3 w-3 text-primary" />
-        Click any player to see their AI powered analytics breakdown
-      </p>
-
-      <div className="rounded-xl border border-border overflow-hidden">
+      {/* Table */}
+      <div className="rounded-xl border border-border bg-card overflow-hidden">
         <div className="overflow-auto max-h-[580px] scrollbar-thin">
           <Table>
-            <TableHeader className="sticky top-0 z-10 bg-muted/80 backdrop-blur">
+            <TableHeader className="sticky top-0 z-10 bg-popover">
               <TableRow className="border-border hover:bg-transparent">
-                <TableHead className="w-10 text-center text-xs font-semibold">#</TableHead>
-                <TableHead className="text-xs font-semibold">Player</TableHead>
-                <TableHead className="text-xs font-semibold">Country</TableHead>
-                <TableHead className="text-xs font-semibold">Pos</TableHead>
-                <TableHead
-                  className="text-xs font-semibold cursor-pointer select-none"
-                  onClick={() => toggleSort("price")}
-                >
-                  <div className="flex items-center gap-1">
-                    Price <SortIcon col="price" sortKey={sortKey} sortDir={sortDir} />
-                  </div>
+                <TableHead className="w-10 text-center text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  #
                 </TableHead>
-                <TableHead
-                  className="text-xs font-semibold cursor-pointer select-none"
-                  onClick={() => toggleSort("adjusted_projection")}
-                >
-                  <div className="flex items-center gap-1">
-                    Proj Pts <SortIcon col="adjusted_projection" sortKey={sortKey} sortDir={sortDir} />
-                  </div>
+                <TableHead className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  Player
                 </TableHead>
-                <TableHead
-                  className="text-xs font-semibold cursor-pointer select-none"
-                  onClick={() => toggleSort("std_fp_last_5")}
-                >
-                  <div className="flex items-center gap-1">
-                    Volatility <SortIcon col="std_fp_last_5" sortKey={sortKey} sortDir={sortDir} />
-                  </div>
+                <TableHead className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  Nation
                 </TableHead>
-                <TableHead
-                  className="text-xs font-semibold cursor-pointer select-none"
-                  onClick={() => toggleSort("gem_score_adj")}
-                >
-                  <div className="flex items-center gap-1">
-                    Gem Score <SortIcon col="gem_score_adj" sortKey={sortKey} sortDir={sortDir} />
-                  </div>
+                <TableHead className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                  Pos
                 </TableHead>
+                <SortableHead col="price" label="Price" sortKey={sortKey} sortDir={sortDir} onSort={toggleSort} />
+                <SortableHead col="adjusted_projection" label="Proj Pts" sortKey={sortKey} sortDir={sortDir} onSort={toggleSort} />
+                <SortableHead col="std_fp_last_5" label="Volatility" sortKey={sortKey} sortDir={sortDir} onSort={toggleSort} />
+                <SortableHead col="gem_score_adj" label="Gem Score" sortKey={sortKey} sortDir={sortDir} onSort={toggleSort} />
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -165,41 +173,34 @@ export function PlayerTable({ players }: PlayerTableProps) {
                 <TableRow
                   key={`${p.player}-${p.country}`}
                   onClick={() => handleRowClick(p)}
-                  className="border-border hover:bg-primary/5 cursor-pointer transition-colors group"
+                  className="border-border/60 hover:bg-accent/50 cursor-pointer transition-colors group"
                 >
-                  <TableCell className="text-center text-sm text-muted-foreground font-mono">
+                  <TableCell className="text-center text-xs text-muted-foreground font-mono tabular-nums">
                     {idx + 1}
                   </TableCell>
-                  <TableCell className="font-semibold text-sm group-hover:text-primary transition-colors">
+                  <TableCell className="font-medium text-sm group-hover:text-primary transition-colors">
                     {formatName(p.player)}
                   </TableCell>
-                  <TableCell className="text-sm text-muted-foreground font-mono tracking-wider">
+                  <TableCell className="text-xs text-muted-foreground font-mono tracking-wider">
                     {p.country}
                   </TableCell>
                   <TableCell>
-                    <Badge variant="outline" className={`text-xs ${POSITION_COLORS[p.position]}`}>
+                    <Badge variant="outline" className={`text-[10px] px-1.5 ${POSITION_BADGE[p.position]}`}>
                       {POSITION_MAP[p.position]}
                     </Badge>
                   </TableCell>
-                  <TableCell className="text-sm font-mono font-medium">
+                  <TableCell className="text-sm font-mono tabular-nums text-right">
                     ${p.price.toFixed(1)}
                   </TableCell>
-                  <TableCell className="text-sm font-mono font-bold text-primary">
+                  <TableCell className="text-sm font-mono tabular-nums font-semibold text-right">
                     {p.adjusted_projection.toFixed(2)}
                   </TableCell>
-                  <TableCell className="text-sm font-mono text-muted-foreground">
+                  <TableCell className="text-sm font-mono tabular-nums text-muted-foreground text-right">
                     {p.std_fp_last_5.toFixed(2)}
                   </TableCell>
-                  <TableCell className="text-sm font-mono">
-                    <span
-                      className={
-                        p.gem_score_adj > 3
-                          ? "text-purple-400 font-bold"
-                          : p.gem_score_adj > 1
-                          ? "text-amber-400 font-semibold"
-                          : "text-muted-foreground"
-                      }
-                    >
+                  <TableCell className="text-right">
+                    <span className="inline-flex items-center justify-end gap-1.5 text-sm font-mono tabular-nums">
+                      <span className={`h-1.5 w-1.5 rounded-full ${gemTier(p.gem_score_adj)}`} />
                       {p.gem_score_adj.toFixed(2)}
                     </span>
                   </TableCell>
@@ -214,6 +215,20 @@ export function PlayerTable({ players }: PlayerTableProps) {
               )}
             </TableBody>
           </Table>
+        </div>
+        <div className="flex items-center justify-between border-t border-border/60 px-4 py-2 text-[11px] text-muted-foreground">
+          <span>Gem score tiers:</span>
+          <span className="flex items-center gap-4">
+            <span className="flex items-center gap-1.5">
+              <span className="h-1.5 w-1.5 rounded-full bg-violet-400" /> Elite (&gt;3)
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="h-1.5 w-1.5 rounded-full bg-amber-400" /> Strong (&gt;1)
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="h-1.5 w-1.5 rounded-full bg-muted-foreground/40" /> Standard
+            </span>
+          </span>
         </div>
       </div>
 

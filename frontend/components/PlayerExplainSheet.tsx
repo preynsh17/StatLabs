@@ -16,19 +16,13 @@ import {
   DollarSign,
   Target,
   Star,
-  Info,
+  Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Player } from "@/lib/types";
 import { POSITION_MAP } from "@/lib/types";
+import { POSITION_BADGE } from "@/lib/positions";
 import { formatName } from "@/lib/format";
-
-const POSITION_COLORS: Record<number, string> = {
-  0: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  1: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-  2: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  3: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-};
 
 interface Feature {
   key: string;
@@ -132,43 +126,46 @@ function computeFeatures(player: Player, pool: Player[]): Feature[] {
   ];
 }
 
-const COLOR_MAP: Record<string, { bar: string; badge: string; icon: string }> = {
-  emerald: { bar: "bg-emerald-500", badge: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30", icon: "text-emerald-400" },
-  blue: { bar: "bg-blue-500", badge: "bg-blue-500/15 text-blue-400 border-blue-500/30", icon: "text-blue-400" },
-  purple: { bar: "bg-purple-500", badge: "bg-purple-500/15 text-purple-400 border-purple-500/30", icon: "text-purple-400" },
-  amber: { bar: "bg-amber-500", badge: "bg-amber-500/15 text-amber-400 border-amber-500/30", icon: "text-amber-400" },
-  sky: { bar: "bg-sky-500", badge: "bg-sky-500/15 text-sky-400 border-sky-500/30", icon: "text-sky-400" },
-  orange: { bar: "bg-orange-500", badge: "bg-orange-500/15 text-orange-400 border-orange-500/30", icon: "text-orange-400" },
+// Meter spec: the fill carries the value; the track is a lighter step of the same hue.
+const COLOR_MAP: Record<string, { bar: string; track: string; icon: string }> = {
+  emerald: { bar: "bg-emerald-400", track: "bg-emerald-400/15", icon: "bg-emerald-400/12 text-emerald-400" },
+  blue: { bar: "bg-blue-400", track: "bg-blue-400/15", icon: "bg-blue-400/12 text-blue-400" },
+  purple: { bar: "bg-violet-400", track: "bg-violet-400/15", icon: "bg-violet-400/12 text-violet-400" },
+  amber: { bar: "bg-amber-400", track: "bg-amber-400/15", icon: "bg-amber-400/12 text-amber-400" },
+  sky: { bar: "bg-sky-400", track: "bg-sky-400/15", icon: "bg-sky-400/12 text-sky-400" },
+  orange: { bar: "bg-orange-400", track: "bg-orange-400/15", icon: "bg-orange-400/12 text-orange-400" },
 };
 
 function percentileLabel(pct: number): string {
   if (pct >= 90) return "Elite";
   if (pct >= 75) return "Strong";
-  if (pct >= 50) return "Above Avg";
-  if (pct >= 25) return "Below Avg";
+  if (pct >= 50) return "Above avg";
+  if (pct >= 25) return "Below avg";
   return "Weak";
 }
 
 function FeatureBar({ feature }: { feature: Feature }) {
   const colors = COLOR_MAP[feature.color];
   return (
-    <div className="space-y-1.5">
-      <div className="flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2 min-w-0">
-          <span className={cn("shrink-0", colors.icon)}>{feature.icon}</span>
+    <div className="space-y-2">
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-2.5 min-w-0">
+          <span className={cn("flex h-7 w-7 shrink-0 items-center justify-center rounded-md", colors.icon)}>
+            {feature.icon}
+          </span>
           <div className="min-w-0">
             <p className="text-sm font-semibold leading-none truncate">{feature.label}</p>
-            <p className="text-xs text-muted-foreground mt-0.5 truncate">{feature.description}</p>
+            <p className="text-[11px] text-muted-foreground mt-1 truncate">{feature.description}</p>
           </div>
         </div>
         <div className="text-right shrink-0">
-          <p className="text-sm font-mono font-bold">{feature.displayValue}</p>
-          <Badge variant="outline" className={`text-[10px] px-1.5 py-0 mt-0.5 ${colors.badge}`}>
+          <p className="text-sm font-mono tabular-nums font-semibold">{feature.displayValue}</p>
+          <p className="text-[10px] text-muted-foreground mt-0.5">
             {feature.percentile}th · {percentileLabel(feature.percentile)}
-          </Badge>
+          </p>
         </div>
       </div>
-      <div className="relative h-2 rounded-full bg-muted overflow-hidden">
+      <div className={cn("relative h-1.5 rounded-full overflow-hidden", colors.track)}>
         <div
           className={cn("absolute inset-y-0 left-0 rounded-full transition-all", colors.bar)}
           style={{ width: `${feature.percentile}%` }}
@@ -209,40 +206,48 @@ export function PlayerExplainSheet({ player, allPlayers, open, onOpenChange }: P
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full sm:max-w-[460px] bg-card border-border overflow-y-auto scrollbar-thin">
-        <SheetHeader className="pb-4">
+        <SheetHeader className="pb-2">
           <div className="flex items-start gap-3">
             <div className="flex-1 min-w-0">
-              <SheetTitle className="text-xl font-bold leading-tight">{formatName(player.player)}</SheetTitle>
-              <div className="flex items-center gap-2 mt-1.5">
-                <span className="text-sm text-muted-foreground font-mono">{player.country}</span>
-                <Badge variant="outline" className={`text-xs ${POSITION_COLORS[player.position]}`}>
+              <SheetTitle className="text-xl font-bold leading-tight">
+                {formatName(player.player)}
+              </SheetTitle>
+              <div className="flex items-center gap-2 mt-2">
+                <span className="text-xs text-muted-foreground font-mono tracking-wider">
+                  {player.country}
+                </span>
+                <Badge variant="outline" className={`text-[10px] px-1.5 ${POSITION_BADGE[player.position]}`}>
                   {POSITION_MAP[player.position]}
                 </Badge>
-                <span className="text-sm font-mono font-semibold text-primary">${player.price.toFixed(1)}</span>
+                <span className="text-xs font-mono font-semibold rounded-md bg-secondary px-1.5 py-0.5">
+                  ${player.price.toFixed(1)}
+                </span>
               </div>
             </div>
           </div>
 
           {verdict && (
-            <div className="mt-3 rounded-lg border border-primary/20 bg-primary/5 p-3">
-              <div className="flex items-center gap-2 mb-1">
-                <Info className="h-3.5 w-3.5 text-primary" />
-                <span className="text-xs font-bold text-primary uppercase tracking-wider">{verdict.label}</span>
+            <div className="mt-3 rounded-xl border border-primary/25 bg-gradient-to-b from-primary/[0.09] to-primary/[0.04] p-3.5">
+              <div className="flex items-center gap-2 mb-1.5">
+                <Sparkles className="h-3.5 w-3.5 text-primary" />
+                <span className="text-xs font-bold text-primary uppercase tracking-wider">
+                  {verdict.label}
+                </span>
               </div>
               <p className="text-sm text-muted-foreground leading-snug">{verdict.desc}</p>
             </div>
           )}
         </SheetHeader>
 
-        <div className="px-4 pb-5 space-y-5">
+        <div className="px-4 pb-6 space-y-5">
           <Separator className="bg-border/50" />
 
           <div className="space-y-1">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+            <h3 className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
               Analytics Breakdown
             </h3>
             <p className="text-xs text-muted-foreground">
-              Percentile rank vs {POSITION_MAP[player.position]} peers · Higher = better
+              Percentile rank vs {POSITION_MAP[player.position]} peers · higher is better
             </p>
           </div>
 
@@ -254,20 +259,22 @@ export function PlayerExplainSheet({ player, allPlayers, open, onOpenChange }: P
 
           <Separator className="bg-border/50" />
 
-          <div className="space-y-2">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">Raw Stats</h3>
+          <div className="space-y-2.5">
+            <h3 className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
+              Raw Stats
+            </h3>
             <div className="grid grid-cols-2 gap-2">
               {[
-                { label: "Adj. Projection", value: player.adjusted_projection.toFixed(2) + " pts" },
+                { label: "Adj. projection", value: player.adjusted_projection.toFixed(2) + " pts" },
                 { label: "Price", value: `$${player.price.toFixed(1)}` },
-                { label: "Gem Score", value: player.gem_score_adj.toFixed(2) },
-                { label: "Form Volatility (σ)", value: player.std_fp_last_5.toFixed(2) },
+                { label: "Gem score", value: player.gem_score_adj.toFixed(2) },
+                { label: "Form volatility (σ)", value: player.std_fp_last_5.toFixed(2) },
                 { label: "Points per $", value: (player.adjusted_projection / player.price).toFixed(3) },
-                { label: "Captain Score", value: (player.adjusted_projection / (1 + player.std_fp_last_5)).toFixed(2) },
+                { label: "Captain score", value: (player.adjusted_projection / (1 + player.std_fp_last_5)).toFixed(2) },
               ].map((s) => (
-                <div key={s.label} className="rounded-lg bg-secondary p-3">
-                  <p className="text-xs text-muted-foreground">{s.label}</p>
-                  <p className="text-sm font-mono font-bold mt-0.5">{s.value}</p>
+                <div key={s.label} className="rounded-lg border border-border/60 bg-secondary/50 p-3">
+                  <p className="text-[11px] text-muted-foreground">{s.label}</p>
+                  <p className="text-sm font-mono tabular-nums font-semibold mt-1">{s.value}</p>
                 </div>
               ))}
             </div>

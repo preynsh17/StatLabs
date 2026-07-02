@@ -19,14 +19,8 @@ import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import type { Player } from "@/lib/types";
 import { POSITION_MAP } from "@/lib/types";
+import { POSITION_BADGE } from "@/lib/positions";
 import { formatName } from "@/lib/format";
-
-const POSITION_COLORS: Record<number, string> = {
-  0: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  1: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-  2: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  3: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-};
 
 interface AnchorSelectProps {
   players: Player[];
@@ -98,7 +92,7 @@ export function AnchorSelect({ players, selected, onChange, max = 3 }: AnchorSel
                       <span className="text-xs text-muted-foreground font-mono">{p.country}</span>
                       <Badge
                         variant="outline"
-                        className={`text-xs ${POSITION_COLORS[p.position]}`}
+                        className={`text-[10px] px-1.5 ${POSITION_BADGE[p.position]}`}
                       >
                         {POSITION_MAP[p.position]}
                       </Badge>
