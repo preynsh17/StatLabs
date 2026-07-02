@@ -1,0 +1,6 @@
+# generated intermediate tables (rebuilt by running the notebooks in order)
+data/
+# local virtual environment
+.venv/
+.ipynb_checkpoints/
+__pycache__/

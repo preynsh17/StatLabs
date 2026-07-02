@@ -1,0 +1,9 @@
+# core (required to rebuild ratings via process.py)
+pandas>=2.0
+numpy>=1.24
+pyarrow>=12.0
+
+# optional (only to run / re-execute the .ipynb notebooks)
+jupyter>=1.0
+jupytext>=1.16
+matplotlib>=3.7
